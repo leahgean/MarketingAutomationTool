@@ -1,0 +1,6 @@
+E:\MarketingAutomationTool\MarketingAutomationTool\Logger\bin\Release\Logger.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\Logger\bin\Release\Logger.pdb
+E:\MarketingAutomationTool\MarketingAutomationTool\Logger\obj\Release\Logger.csprojAssemblyReference.cache
+E:\MarketingAutomationTool\MarketingAutomationTool\Logger\obj\Release\Logger.csproj.CoreCompileInputs.cache
+E:\MarketingAutomationTool\MarketingAutomationTool\Logger\obj\Release\Logger.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\Logger\obj\Release\Logger.pdb

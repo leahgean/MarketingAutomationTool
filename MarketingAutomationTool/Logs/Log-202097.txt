@@ -1,0 +1,23 @@
+[9/7/2020 1:52:01 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-GetSearchCriteriaDisplay	Id:126	Type:Error	Message:Failed to convert parameter value from a Guid to a Int32.
+[9/7/2020 1:52:04 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-GetSearchResult	Id:	Type:Error	Message:Incorrect syntax near ')'.
+Incorrect syntax near ')'.
+[9/7/2020 1:53:04 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-GetSearchCriteriaDisplay	Id:126	Type:Error	Message:Failed to convert parameter value from a Guid to a Int32.
+[9/7/2020 1:53:05 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-GetSearchResult	Id:	Type:Error	Message:Incorrect syntax near ')'.
+Incorrect syntax near ')'.
+[9/7/2020 1:54:06 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-GetSearchCriteriaDisplay	Id:126	Type:Error	Message:Failed to convert parameter value from a Guid to a Int32.
+[9/7/2020 1:54:09 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-GetSearchResult	Id:	Type:Error	Message:Incorrect syntax near ')'.
+Incorrect syntax near ')'.
+[9/7/2020 1:54:36 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-GetSearchCriteriaDisplay	Id:126	Type:Error	Message:Failed to convert parameter value from a Guid to a Int32.
+[9/7/2020 4:18:35 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-ViewRecentSearches	Id:6388071f-36bb-4823-a3ed-8770adae0f51	Type:Error	Message:Cannot insert the value NULL into column 'ModifiedDate', table '@ContactSearch'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+[9/7/2020 4:20:00 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-ViewRecentSearches	Id:6388071f-36bb-4823-a3ed-8770adae0f51	Type:Error	Message:Cannot insert the value NULL into column 'ModifiedDate', table '@ContactSearch'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+[9/7/2020 4:33:15 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-ViewRecentSearches	Id:6388071f-36bb-4823-a3ed-8770adae0f51	Type:Error	Message:Cannot insert the value NULL into column 'ModifiedDate', table '@ContactSearch'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+[9/7/2020 4:33:28 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-ViewRecentSearches	Id:6388071f-36bb-4823-a3ed-8770adae0f51	Type:Error	Message:Cannot insert the value NULL into column 'ModifiedDate', table '@ContactSearch'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+[9/7/2020 4:35:10 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-GetSearchJsonString	Id:127	Type:Error	Message:Failed to convert parameter value from a Guid to a Int32.
+[9/7/2020 4:37:13 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-GetSearchJsonString	Id:127	Type:Error	Message:Failed to convert parameter value from a Guid to a Int32.
+[9/7/2020 4:37:47 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-GetSearchJsonString	Id:128	Type:Error	Message:Failed to convert parameter value from a Guid to a Int32.
+[9/7/2020 4:37:57 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-GetSearchJsonString	Id:126	Type:Error	Message:Failed to convert parameter value from a Guid to a Int32.
+[9/7/2020 4:38:39 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-GetSearchJsonString	Id:127	Type:Error	Message:Failed to convert parameter value from a Guid to a Int32.

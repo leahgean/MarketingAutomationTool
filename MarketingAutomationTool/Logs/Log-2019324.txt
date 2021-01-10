@@ -1,0 +1,4 @@
+[3/24/2019 10:37:14 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Unrecognized Guid format.
+[3/24/2019 10:39:15 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Unrecognized Guid format.
+[3/24/2019 10:40:07 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Unrecognized Guid format.
+[3/24/2019 10:40:10 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Unrecognized Guid format.

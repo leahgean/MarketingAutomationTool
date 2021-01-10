@@ -1,0 +1,16 @@
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\bin\Debug\Dapper.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\bin\Debug\DataModels.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\bin\Debug\Logger.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\bin\Debug\Newtonsoft.Json.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\bin\Debug\DataModels.pdb
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\bin\Debug\Logger.pdb
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\bin\Debug\Dapper.xml
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\bin\Debug\Newtonsoft.Json.xml
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

@@ -1,0 +1,1 @@
+[12/25/2020 7:59:09 PM]	LoggedUser:mcdrosales@mailinator.com	Module:Mail-SendEmail	Id:	Type:Error	Message:Failure sending mail.

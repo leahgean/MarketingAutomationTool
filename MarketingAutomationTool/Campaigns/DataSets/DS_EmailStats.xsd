@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_EmailStats" targetNamespace="http://tempuri.org/DS_EmailStats.xsd" xmlns:mstns="http://tempuri.org/DS_EmailStats.xsd" xmlns="http://tempuri.org/DS_EmailStats.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_EmailStats" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS_EmailStats" msprop:Generator_UserDSName="DS_EmailStats">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblEmailStats" msprop:Generator_TableClassName="tblEmailStatsDataTable" msprop:Generator_TableVarName="tabletblEmailStats" msprop:Generator_TablePropName="tblEmailStats" msprop:Generator_RowDeletingName="tblEmailStatsRowDeleting" msprop:Generator_RowChangingName="tblEmailStatsRowChanging" msprop:Generator_RowEvHandlerName="tblEmailStatsRowChangeEventHandler" msprop:Generator_RowDeletedName="tblEmailStatsRowDeleted" msprop:Generator_UserTableName="tblEmailStats" msprop:Generator_RowChangedName="tblEmailStatsRowChanged" msprop:Generator_RowEvArgName="tblEmailStatsRowChangeEvent" msprop:Generator_RowClassName="tblEmailStatsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CampaignId" msprop:Generator_ColumnVarNameInTable="columnCampaignId" msprop:Generator_ColumnPropNameInRow="CampaignId" msprop:Generator_ColumnPropNameInTable="CampaignIdColumn" msprop:Generator_UserColumnName="CampaignId" type="xs:int" minOccurs="0" />
+              <xs:element name="CampaignName" msprop:Generator_ColumnVarNameInTable="columnCampaignName" msprop:Generator_ColumnPropNameInRow="CampaignName" msprop:Generator_ColumnPropNameInTable="CampaignNameColumn" msprop:Generator_UserColumnName="CampaignName" type="xs:string" minOccurs="0" />
+              <xs:element name="MessageId" msprop:Generator_ColumnVarNameInTable="columnMessageId" msprop:Generator_ColumnPropNameInRow="MessageId" msprop:Generator_ColumnPropNameInTable="MessageIdColumn" msprop:Generator_UserColumnName="MessageId" type="xs:int" minOccurs="0" />
+              <xs:element name="JobId" msprop:Generator_ColumnVarNameInTable="columnJobId" msprop:Generator_ColumnPropNameInRow="JobId" msprop:Generator_ColumnPropNameInTable="JobIdColumn" msprop:Generator_UserColumnName="JobId" type="xs:int" minOccurs="0" />
+              <xs:element name="CampaignCreatedDate" msprop:Generator_ColumnVarNameInTable="columnCampaignCreatedDate" msprop:Generator_ColumnPropNameInRow="CampaignCreatedDate" msprop:Generator_ColumnPropNameInTable="CampaignCreatedDateColumn" msprop:Generator_UserColumnName="CampaignCreatedDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="EmailsSent" msprop:Generator_ColumnVarNameInTable="columnEmailsSent" msprop:Generator_ColumnPropNameInRow="EmailsSent" msprop:Generator_ColumnPropNameInTable="EmailsSentColumn" msprop:Generator_UserColumnName="EmailsSent" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalOpens" msprop:Generator_ColumnVarNameInTable="columnTotalOpens" msprop:Generator_ColumnPropNameInRow="TotalOpens" msprop:Generator_ColumnPropNameInTable="TotalOpensColumn" msprop:Generator_UserColumnName="TotalOpens" type="xs:int" minOccurs="0" />
+              <xs:element name="UniqueOpens" msprop:Generator_ColumnVarNameInTable="columnUniqueOpens" msprop:Generator_ColumnPropNameInRow="UniqueOpens" msprop:Generator_ColumnPropNameInTable="UniqueOpensColumn" msprop:Generator_UserColumnName="UniqueOpens" type="xs:int" minOccurs="0" />
+              <xs:element name="TotalClicks" msprop:Generator_ColumnVarNameInTable="columnTotalClicks" msprop:Generator_ColumnPropNameInRow="TotalClicks" msprop:Generator_ColumnPropNameInTable="TotalClicksColumn" msprop:Generator_UserColumnName="TotalClicks" type="xs:int" minOccurs="0" />
+              <xs:element name="UniqueClicks" msprop:Generator_ColumnVarNameInTable="columnUniqueClicks" msprop:Generator_ColumnPropNameInRow="UniqueClicks" msprop:Generator_ColumnPropNameInTable="UniqueClicksColumn" msprop:Generator_UserColumnName="UniqueClicks" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblParameters" msprop:Generator_TableClassName="tblParametersDataTable" msprop:Generator_TableVarName="tabletblParameters" msprop:Generator_TablePropName="tblParameters" msprop:Generator_RowDeletingName="tblParametersRowDeleting" msprop:Generator_RowChangingName="tblParametersRowChanging" msprop:Generator_RowEvHandlerName="tblParametersRowChangeEventHandler" msprop:Generator_RowDeletedName="tblParametersRowDeleted" msprop:Generator_UserTableName="tblParameters" msprop:Generator_RowChangedName="tblParametersRowChanged" msprop:Generator_RowEvArgName="tblParametersRowChangeEvent" msprop:Generator_RowClassName="tblParametersRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StartDate" msprop:Generator_ColumnVarNameInTable="columnStartDate" msprop:Generator_ColumnPropNameInRow="StartDate" msprop:Generator_ColumnPropNameInTable="StartDateColumn" msprop:Generator_UserColumnName="StartDate" type="xs:string" minOccurs="0" />
+              <xs:element name="EndDate" msprop:Generator_ColumnVarNameInTable="columnEndDate" msprop:Generator_ColumnPropNameInRow="EndDate" msprop:Generator_ColumnPropNameInTable="EndDateColumn" msprop:Generator_UserColumnName="EndDate" type="xs:string" minOccurs="0" />
+              <xs:element name="CampaignName" msprop:Generator_ColumnVarNameInTable="columnCampaignName" msprop:Generator_ColumnPropNameInRow="CampaignName" msprop:Generator_ColumnPropNameInTable="CampaignNameColumn" msprop:Generator_UserColumnName="CampaignName" type="xs:string" minOccurs="0" />
+              <xs:element name="GenerateTime" msprop:Generator_ColumnVarNameInTable="columnGenerateTime" msprop:Generator_ColumnPropNameInRow="GenerateTime" msprop:Generator_ColumnPropNameInTable="GenerateTimeColumn" msprop:Generator_UserColumnName="GenerateTime" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,9 @@
+E:\MarketingAutomationTool\MarketingAutomationTool\Common.Data\bin\Debug\Common.Data.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\Common.Data\bin\Debug\Common.Data.pdb
+E:\MarketingAutomationTool\MarketingAutomationTool\Common.Data\bin\Debug\Logger.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\Common.Data\bin\Debug\Logger.pdb
+E:\MarketingAutomationTool\MarketingAutomationTool\Common.Data\obj\Debug\Common.Data.csprojAssemblyReference.cache
+E:\MarketingAutomationTool\MarketingAutomationTool\Common.Data\obj\Debug\Common.Data.csproj.CoreCompileInputs.cache
+E:\MarketingAutomationTool\MarketingAutomationTool\Common.Data\obj\Debug\Common.Data.csproj.CopyComplete
+E:\MarketingAutomationTool\MarketingAutomationTool\Common.Data\obj\Debug\Common.Data.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\Common.Data\obj\Debug\Common.Data.pdb

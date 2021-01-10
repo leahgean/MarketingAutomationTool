@@ -1,0 +1,2 @@
+[3/17/2019 1:50:19 PM]	LoggedUser:Admin Account	Module:Login	Id:	Type:error	Message:Password is invalid.
+[3/17/2019 9:59:09 PM]	LoggedUser:ccn2222paacycdnewn123jlf	Module:UserLogin-LogUserLogout	Id:ccn2222paacycdnewn123jlf	Type:Error	Message:Must declare the scalar variable "@Session_Id".

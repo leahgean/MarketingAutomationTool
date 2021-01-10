@@ -1,0 +1,6 @@
+[3/3/2020 2:52:08 AM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:LeadImport-S_ContactListJob_GetExistingImports	Id:	Type:Error	Message:Invalid object name 'ContactListJob'.
+Invalid object name 'ContactListJob'.
+SELECT * FROM ( SELECT C.JobId, C.JobName, C.JobStatusId, C.AccountID, C.CreatedBy, U.FirstName + '' + U.LastName CreatedByName, C.FileFormat, C.OriginalFileName, C.[FileName], C.ContactListId, C.DateCreated, C.JobStarted, C.JobFinished, C.Error, C.TotalContacts, C.UploadedContacts, ROW_NUMBER() OVER (ORDER BY DATECREATED DESC) AS RowNum FROM ContactListJob C WITH (NOLOCK) INNER JOIN [User] U WITH (NOLOCK) ON C.CreatedBy=U.UserId WHERE C.AccountID='CCF4D547-C9EC-42B4-97DF-B12752734323') sub WHERE sub.RowNum >= 1 AND sub.RowNum <= 5
+[3/3/2020 3:28:34 AM]	LoggedUser:1f3d066a-d769-460d-878d-4e4359ba0f72	Module:ContactList-CreateContactListJob	Id:March3Upload	Type:Error	Message:Could not find stored procedure 'S_ContactListJob_Insert'.
+[3/3/2020 3:33:18 AM]	LoggedUser:1f3d066a-d769-460d-878d-4e4359ba0f72	Module:ContactList-CreateContactListJob	Id:March3Upload	Type:Error	Message:The INSERT statement conflicted with the FOREIGN KEY constraint "FK__ContactJo__JobSt__53F76C67". The conflict occurred in database "MarketingAutomationTool", table "dbo.Sys_Job_Status", column 'STATUS_ID'.
+The statement has been terminated.

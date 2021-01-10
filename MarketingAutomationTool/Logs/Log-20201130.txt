@@ -1,0 +1,1 @@
+[11/30/2020 9:11:59 PM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:Campaign-CreateCampaign	Id:Cyber Monday Sale	Type:Error	Message:Invalid column name 'ContactListID'.

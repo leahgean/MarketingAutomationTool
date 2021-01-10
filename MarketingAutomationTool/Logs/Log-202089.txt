@@ -1,0 +1,5 @@
+[8/9/2020 11:23:58 AM]	LoggedUser:e0b31172-b6da-4d4e-bfe2-f32274d03ff1	Module:ContactSearch-GetSearchCriteriaDisplay	Id:28	Type:Error	Message:Conversion failed when converting the varchar value ''' to data type int.
+[8/9/2020 12:34:29 PM]	LoggedUser:e0b31172-b6da-4d4e-bfe2-f32274d03ff1	Module:ContactSearch-GetSearchResult	Id:	Type:Error	Message:Incorrect syntax near the keyword 'LIKE'.
+Incorrect syntax near the keyword 'LIKE'.
+[8/9/2020 12:35:11 PM]	LoggedUser:e0b31172-b6da-4d4e-bfe2-f32274d03ff1	Module:ContactSearch-GetSearchResult	Id:	Type:Error	Message:Incorrect syntax near the keyword 'LIKE'.
+Incorrect syntax near the keyword 'LIKE'.

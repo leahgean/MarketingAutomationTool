@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="MarketingAutomationTool" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost\SQLEXPRESS;Initial Catalog=MarketingAutomationTool;User ID=auto" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="MarketingAutomationToolConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.COM_MESSAGE" Member="COM_MESSAGEs">
+    <Type Name="COM_MESSAGE">
+      <Column Name="MESSAGE_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NAME" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="DESCRIPTION" Type="System.String" DbType="NVarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="SUBJECT" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="FROM_ADDRESS" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="FROM_NAME" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="CC" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="BCC" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="CHANNEL_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FORMAT_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BODY" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" />
+      <Column Name="TEMPLATE_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="STATUS_ID" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="SUBMITTED" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="HTML_TEMPLATE_ID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="RECIPIENT_FILTER_ID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="CREATED" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="UPDATE_USER_ID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="DELETE_USER_ID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="DATE_CREATED" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DATE_UPDATED" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="DATE_DELETED" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="VERSION" Type="System.Data.Linq.Binary" DbType="rowversion" CanBeNull="true" IsVersion="true" />
+      <Column Name="ENTITY" Type="System.String" DbType="Char(16)" CanBeNull="true" />
+      <Column Name="ENTITY_ID" Type="System.String" DbType="VarChar(32)" CanBeNull="true" />
+      <Column Name="MSGTYPE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="isLink" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="FB_URL" Type="System.String" DbType="VarChar(256)" CanBeNull="true" />
+      <Column Name="REPLACE_EMAIL" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="FB_PhotoUrl" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="FB_SourceUrl" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="isSenderID" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="TO_ADDRESS" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="TO_NAME" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

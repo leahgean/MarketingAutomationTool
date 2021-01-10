@@ -1,0 +1,10 @@
+[12/13/2020 3:49:57 AM]	LoggedUser:6388071f-36bb-4823-a3ed-8770adae0f51	Module:Lead-S_Lead_QuickSearch	Id:	Type:Error	Message:@hidden is not a parameter for procedure S_CAMPAIGN_QUICKSEARCH.
+[12/13/2020 3:43:44 PM]	LoggedUser:%%l%%	Module:Public-Beacon	Id:%%c%%	Type:Error	Message:Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+[12/13/2020 4:56:06 PM]	LoggedUser:%%l%%	Module:Public-Beacon	Id:%%c%%	Type:Error	Message:Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+[12/13/2020 4:58:06 PM]	LoggedUser:%%l%%	Module:Public-Beacon	Id:%%c%%	Type:Error	Message:Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+[12/13/2020 5:11:11 PM]	LoggedUser:%%l%%	Module:Public-Beacon	Id:%%c%%	Type:Error	Message:Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+[12/13/2020 5:20:31 PM]	LoggedUser:%%l%%	Module:Public-Beacon	Id:%%c%%	Type:Error	Message:Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+[12/13/2020 5:43:26 PM]	LoggedUser:%%l%%	Module:Public-Beacon	Id:%%c%%	Type:Error	Message:Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+[12/13/2020 7:43:36 PM]	LoggedUser:%%l%%	Module:Public-Beacon	Id:%%c%%	Type:Error	Message:Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+[12/13/2020 8:10:56 PM]	LoggedUser:%%l%%	Module:Public-Beacon	Id:%%c%%	Type:Error	Message:Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+[12/13/2020 11:48:39 PM]	LoggedUser:%%l%%	Module:Public-Beacon	Id:%%c%%	Type:Error	Message:Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).

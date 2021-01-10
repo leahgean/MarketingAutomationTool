@@ -1,0 +1,2 @@
+[9/28/2020 6:28:42 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-S_CONTACTSEARCH_GETEXCLUDELIST	Id:	Type:Error	Message:Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+[9/28/2020 6:49:22 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-GetSearchResult	Id:	Type:Error	Message:Procedure or function 'S_ContactSearch_Search' expects parameter '@PageNum', which was not supplied.

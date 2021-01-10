@@ -1,0 +1,2 @@
+[8/15/2020 3:50:16 PM]	LoggedUser:e0b31172-b6da-4d4e-bfe2-f32274d03ff1	Module:ContactSearch-GetSearchResult	Id:	Type:Error	Message:Incorrect syntax near the keyword 'AND'.
+Incorrect syntax near the keyword 'AND'.

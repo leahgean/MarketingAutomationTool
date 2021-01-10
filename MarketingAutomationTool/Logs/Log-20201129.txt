@@ -1,0 +1,2 @@
+[11/29/2020 2:56:18 AM]	LoggedUser:Surtly1987	Module:UserLogin	Id:	Type:Error	Message:A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The wait operation timed out.)
+[11/29/2020 10:02:46 PM]	LoggedUser:6388071f-36bb-4823-a3ed-8770adae0f51	Module:Lead-GetLeadTotalByMonth	Id:	Type:Error	Message:Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.

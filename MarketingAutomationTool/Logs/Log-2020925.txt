@@ -1,0 +1,14 @@
+[9/25/2020 4:33:26 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-S_CONTACTSEARCH_GETEXCLUDELIST	Id:	Type:Error	Message:Invalid object name '##tmp_ContactSearch_147'.
+Invalid object name '##tmp_ContactSearch_147'.
+[9/25/2020 4:37:20 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-S_CONTACTSEARCH_GETEXCLUDELIST	Id:	Type:Error	Message:Invalid object name '##tmp_ContactSearch_147'.
+Invalid object name '##tmp_ContactSearch_147'.
+[9/25/2020 5:35:50 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-S_CONTACTSEARCH_GETEXCLUDELIST	Id:	Type:Error	Message:Incorrect syntax near the keyword 'ASC'.
+Incorrect syntax near the keyword 'with'. If this statement is a common table expression, an xmlnamespaces clause or a change tracking context clause, the previous statement must be terminated with a semicolon.
+Incorrect syntax near the keyword 'ASC'.
+Incorrect syntax near the keyword 'with'. If this statement is a common table expression, an xmlnamespaces clause or a change tracking context clause, the previous statement must be terminated with a semicolon.
+[9/25/2020 5:35:55 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-S_CONTACTSEARCH_GETEXCLUDELIST	Id:	Type:Error	Message:Incorrect syntax near the keyword 'ASC'.
+Incorrect syntax near the keyword 'with'. If this statement is a common table expression, an xmlnamespaces clause or a change tracking context clause, the previous statement must be terminated with a semicolon.
+Incorrect syntax near the keyword 'ASC'.
+Incorrect syntax near the keyword 'with'. If this statement is a common table expression, an xmlnamespaces clause or a change tracking context clause, the previous statement must be terminated with a semicolon.
+[9/25/2020 6:03:42 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-S_CONTACTSEARCH_GETEXCLUDELIST	Id:	Type:Error	Message:Invalid object name '##tmp_ExcludeList_153'.
+Invalid object name '##tmp_ExcludeList_153'.

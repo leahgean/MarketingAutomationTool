@@ -1,0 +1,2 @@
+[1/1/2020 7:52:19 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:ContactList-GetLists	Id:	Type:Error	Message:Procedure or function 'S_LIST_GET' expects parameter '@TotalCount', which was not supplied.
+[1/1/2020 7:56:22 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:ContactList-GetLists	Id:	Type:Error	Message:Procedure or function 'S_LIST_GET' expects parameter '@TotalCount', which was not supplied.

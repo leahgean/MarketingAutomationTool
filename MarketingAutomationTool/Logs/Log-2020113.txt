@@ -1,0 +1,2 @@
+[11/3/2020 5:41:58 PM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:Lead-DeleteLead	Id:23e9602d-545e-47ba-928c-7715990d0afd	Type:Error	Message:Cannot insert the value NULL into column 'EMAIL_ADDRESS', table 'MarketingAutomationTool.dbo.Contact_Subscription_History'; column does not allow nulls. INSERT fails.
+The statement has been terminated.

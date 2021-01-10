@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MATSite.master.cs" Inherits="MarketingAutomationTool.MATSite" %>
+
+<!doctype html>
+<html lang="en">
+  <head runat="server" id="head1">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="/icons/widget1.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css"  />
+	<link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/fontawesome-free-5.8.1-web/css/all.css" /> <!--load all styles -->
+    <asp:ContentPlaceHolder runat="server" ID="cpHead">
+
+    </asp:ContentPlaceHolder>
+  </head>
+  <body>
+    <form runat="server">
+	<div class="container-fluid">
+		<div class="row topheader">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+				<img src="/images/marketingautomationtool4.png" class="img-fluid" />
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
+				<div class="paddtop" >
+				<b><span class="welcome">Welcome <asp:Label ID="lblLoggedUser" runat="server"  ></asp:Label></span></b>
+				&nbsp;|&nbsp;
+                <asp:LinkButton ID="lnkMyAccount" runat="server" Text="MyAccount" OnClick="lnkMyAccount_Click" CSSClass="headerlinks" ></asp:LinkButton>
+				&nbsp;|&nbsp;
+                <asp:LinkButton ID="lnkSignOut" runat="server" Text="Sign Out"  CSSClass="headerlinks" OnClick="lnkSignOut_Click" ></asp:LinkButton>
+                <span runat="server" id="spSwitchBackSeparator">&nbsp;|&nbsp;</span>
+                <asp:LinkButton ID="lnkSwitchBack" runat="server" Text="Switch Back To My Account"  CSSClass="headerlinks" OnClick="lnkSwitchBack_Click"  ></asp:LinkButton>
+				</div>
+			</div>
+		</div>
+		<div class="row bottomheader">
+			<div class="col-lg-12">
+				&nbsp;
+			</div>
+		</div>
+		<div class="row tabheader">
+            <div class="col-lg-8">
+				 <ul class="nav nav-tabs" id="maintab">
+					  <li class="nav-item">
+                          <asp:LinkButton ID="lnkHome" runat="server" CssClass="nav-link" OnClick="lnkHome_Click"><i class="fas fa-home"></i></asp:LinkButton>
+					  </li>
+					  <li class="nav-item">
+                          <asp:LinkButton ID="lnkLeads" runat="server" CssClass="nav-link" OnClick="lnkLeads_Click" ><i class="fas fa-user-friends"></i>&nbsp;Leads</asp:LinkButton>
+					  </li>
+					  <li class="nav-item">
+                           <asp:LinkButton ID="lnkCampaigns" runat="server" CssClass="nav-link" OnClick="lnkCampaigns_Click" ><i class="fas fa-comments"></i>&nbsp;Campaigns</asp:LinkButton>
+					  </li>
+					  <li class="nav-item" style="display:none;">
+						<a class="nav-link" href="#"><i class="fas fa-newspaper"></i>&nbsp;Templates</a>
+					  </li>
+					  <li class="nav-item" style="display:none;">
+						<a class="nav-link" href="#"><i class="fas fa-columns"></i>&nbsp;Webforms</a>
+					  </li>
+				</ul>
+			</div>
+			<div class="col-lg-4 text-right divheadershortcut" >
+				<b><span class="version">Version 1.0</span></b>
+                <asp:ContentPlaceHolder runat="server" ID="cpShortCut">
+                </asp:ContentPlaceHolder>
+			</div>
+		</div>
+        <div class="row tabheaderbottom">
+            <asp:ContentPlaceHolder runat="server" ID="cpTabHeaderBottom">
+            </asp:ContentPlaceHolder>
+		</div>
+		<div class="row crumbs">
+			<div class="container-fluid">
+                <asp:ContentPlaceHolder runat="server" ID="cpRowCrumbs">
+                </asp:ContentPlaceHolder>
+			</div>
+		</div>
+		<div class="row">
+			<div class="container-fluid">
+				<div class="row">
+					<asp:ContentPlaceHolder runat="server" ID="cpBody">
+                    </asp:ContentPlaceHolder>
+				</div>
+			</div>
+		</div>
+	</div>
+    <br/>
+    <br/>
+    <br/>
+	<footer class="footer">
+			  <div class="container-fluid">
+				<span class="text-muted">Marketing Automation Tool © 2018-2021</span>
+			  </div>
+			</footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/bootstrap/assets/js/vendor/jquery-slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="/bootstrap/assets/js/vendor/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="/bootstrap/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>  
+  </form>
+</body>
+</html>

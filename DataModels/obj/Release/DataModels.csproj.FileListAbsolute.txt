@@ -1,0 +1,9 @@
+E:\MarketingAutomationTool\MarketingAutomationTool\DataModels\bin\Release\DataModels.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\DataModels\bin\Release\DataModels.pdb
+E:\MarketingAutomationTool\MarketingAutomationTool\DataModels\bin\Release\Newtonsoft.Json.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\DataModels\bin\Release\Newtonsoft.Json.xml
+E:\MarketingAutomationTool\MarketingAutomationTool\DataModels\obj\Release\DataModels.csprojAssemblyReference.cache
+E:\MarketingAutomationTool\MarketingAutomationTool\DataModels\obj\Release\DataModels.csproj.CoreCompileInputs.cache
+E:\MarketingAutomationTool\MarketingAutomationTool\DataModels\obj\Release\DataModels.csproj.CopyComplete
+E:\MarketingAutomationTool\MarketingAutomationTool\DataModels\obj\Release\DataModels.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\DataModels\obj\Release\DataModels.pdb

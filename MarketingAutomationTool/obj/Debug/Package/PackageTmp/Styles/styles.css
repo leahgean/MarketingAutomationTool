@@ -1,0 +1,781 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 40px; /* Margin bottom by footer height */
+    font: normal 12px Arial, sans-serif !important;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px; /* Set the fixed height of the footer here */
+    line-height: 40px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+}
+
+
+.topheader {
+    background-color: #ed9121; /*carrot orange*/
+    /*background-color: #ed9121;*/ /*default if browser does not support gradient*/
+    background-image: linear-gradient(#ed6f21, #ed9121, #edc421);
+    color: #FFF;
+}
+
+.bottomheader {
+    background-color: #96b125; /*vegetable green*/
+    height: 5px;
+}
+
+.tabheader {
+    background-color: #3F3F3F; /*dark gray*/
+    height: 34px;
+}
+
+.tabheaderbottom {
+    background-color: #CCC;
+    height: 30px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+
+.paddtop {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.headerlinks:link {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 8pt;
+}
+
+.headerlinks:visited {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 8pt;
+}
+
+.headerlinks:hover {
+    color: #000;
+    text-decoration: none;
+    font-size: 8pt;
+}
+
+.headerlinks:active {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 8pt;
+}
+
+.welcome {
+    color: #FFF !important;
+    font-size: 8pt;
+    font-weight: bold;
+}
+
+.version {
+    color: #e6e6e6 !important;
+    font-size: 8pt;
+}
+
+.divheadershortcut {
+    padding-top: 10px;
+    color: #FFF;
+}
+
+.headershortcuts:link {
+    color: #e6e6e6;
+    text-decoration: none;
+    font-size: 8pt;
+}
+
+.headershortcuts:visited {
+    color: #e6e6e6;
+    text-decoration: none;
+    font-size: 8pt;
+}
+
+.headershortcuts:hover {
+    color: #f9f9f9;
+    text-decoration: none;
+    font-size: 8pt;
+}
+
+.headershortcuts:active {
+    color: #e6e6e6;
+    text-decoration: none;
+    font-size: 8pt;
+}
+
+.divsubheadershortcut {
+    padding-top: 5px;
+}
+
+.dropdown-toggle {
+    color: #353535;
+    text-decoration: none;
+    font-size: 8pt;
+}
+
+.subheadershortcut:link {
+    color: #353535;
+    text-decoration: none;
+    font-size: 8pt;
+}
+
+.subheadershortcut:visited {
+    color: #353535;
+    text-decoration: none;
+    font-size: 8pt;
+}
+
+.subheadershortcut:hover {
+    color: #5c5c5c;
+    text-decoration: none;
+    font-size: 8pt;
+}
+
+.subheadershortcut:active {
+    color: #353535;
+    text-decoration: none;
+    font-size: 8pt;
+}
+
+
+
+
+#maintab {
+    border-bottom-style: none !important;
+}
+
+    #maintab li a:link {
+        color: #FFF !important;
+        background-color: #595959 !important;
+        border-top: 1px solid #5c5c5c !important;
+        border-left: 1px solid #5c5c5c !important;
+        border-right: 1px solid #5c5c5c !important;
+        border-bottom-style: none !important;
+        margin-top: 2px;
+        margin-right: 3px;
+    }
+
+    #maintab .nav-item .nav-link.active {
+        color: #3F3F3F !important;
+        background-color: #CCC !important;
+        border-top: 1px solid #CCC !important;
+        border-left: 1px solid #CCC !important;
+        border-right: 1px solid #CCC !important;
+        border-bottom-style: none !important;
+        margin-top: 2px;
+        margin-right: 3px;
+    }
+
+    #maintab li a:hover {
+        color: #FFF !important;
+        background-color: #3F3F3F !important;
+        border-top: 1px solid #595959 !important;
+        border-left: 1px solid #595959 !important;
+        border-right: 1px solid #595959 !important;
+        border-bottom-style: none !important;
+        margin-top: 2px;
+        margin-right: 3px;
+    }
+
+    #maintab li a:visited {
+        color: #FFF !important;
+        border-bottom-style: none !important;
+        margin-top: 2px;
+        margin-right: 3px;
+    }
+
+
+
+.crumbs {
+    margin-top: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: #CCC !important;
+    height: 35px;
+    border: 1px solid #eaeaea;
+}
+
+.breadcrumb {
+    background-color: #CCC !important;
+    font-size: 10px !important;
+    padding: 10px 0px 10px 0px !important;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    display: inline-block;
+    padding-right: 0.5rem;
+    color: #6c757d;
+    content: ">";
+}
+
+.breadcrumb-item {
+    color: #3F3F3F !important;
+}
+
+.breadcrumb a:visited {
+    color: #3F3F3F !important;
+}
+
+.breadcrumb a:hover {
+    color: #eaeaea !important;
+    text-decoration: none !important;
+}
+
+.breadcrumb a:active {
+    color: #CCC !important;
+}
+
+.divcontent {
+    max-height: 550px;
+    overflow-y: auto;
+}
+
+.box {
+    border-radius: 10px;
+    border: 1px solid #E0E0E0;
+    padding: 30px 30px 30px 30px;
+    background-color: #F0F0F0; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#F8F8F8, #E0E0E0,#F0F0F0);
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.dashboard_left_box {
+    padding: 10px 25px 20px 50px;
+    text-align: center !important;
+}
+
+.dashboard_middle_box {
+    padding: 10px 25px 20px 25px;
+    text-align: center !important;
+}
+
+.dashboard_right_box {
+    padding: 10px 50px 10px 25px;
+    text-align: center !important;
+}
+
+.infoBox_email h5 span {
+    color: #42687e;
+}
+
+.infoBox_sms h5 span {
+    color: #f58220;
+}
+
+.infoBox_lead h5 span {
+    color: #94ae0a;
+}
+
+.campaignheader {
+    background-color: #CCC;
+}
+
+.dashboardspace {
+    padding-bottom: 10px;
+}
+
+.dashboard_button {
+    font-size: 10pt;
+}
+
+.dashboard_title {
+    background-color: #3F3F3F;
+    color: #FFF;
+    border-top: 3px solid #96b125;
+    padding: 5px 0px 10px 5px;
+    width: 100%;
+}
+
+.dashboard_table {
+    padding: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 10px;
+}
+
+.main_header {
+    padding: 5px 5px 5px 5px; /*top right bottom left*/
+    margin: 0px 0px 0px 0px;
+    border-top: 3px solid #0C0C0C;
+    background-color: #CCC;
+}
+
+.main_title {
+    padding: 5px 0px 0px 10px;
+}
+
+.main_content {
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    border-bottom: 3px solid #0C0C0C;
+    padding: 20px 0px 0px 0px;
+}
+
+.solocontent {
+    margin: 0px 0px 0px 0px;
+    padding: 10px 20px 0px 20px;
+}
+
+
+.page_header {
+    padding: 5px 5px 5px 5px; /*top right bottom left*/
+    margin: 0px 0px 0px 0px;
+    border-top: 3px solid #0C0C0C;
+    background-color: #CCC;
+}
+
+.page_title {
+    padding: 5px 0px 5px 10px;
+}
+
+.page_content {
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    border-bottom: 3px solid #0C0C0C;
+    padding: 20px 0px 0px 0px;
+}
+
+.leftmenu {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.rightmenu {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.middlecontent {
+    margin: 0px 0px 0px 0px;
+    padding: 20px 5px 0px 5px;
+}
+
+#secondtab {
+    border-bottom-style: solid !important;
+}
+
+    #secondtab li a:link {
+        color: #3F3F3F !important;
+        background-color: #CCC !important;
+        border-top: 1px solid #dee2e6 !important;
+        border-left: 1px solid #dee2e6 !important;
+        border-right: 1px solid #dee2e6 !important;
+        margin-right: 3px;
+    }
+
+    #secondtab .nav-item .nav-link.active {
+        color: #3F3F3F !important;
+        background-color: #FFF !important;
+        border-bottom-style: none !important;
+        margin-right: 3px;
+    }
+
+    #secondtab li a:hover {
+        color: #3F3F3F !important;
+        background-color: #f5f5f0 !important;
+        margin-right: 3px;
+    }
+
+    #secondtab li a:visited {
+        color: #3F3F3F !important;
+        margin-right: 3px;
+    }
+
+.button_panel {
+    background-color: #CCC;
+    padding: 0px 5px 5px 0px;
+}
+
+.tab-content {
+    margin: 20px 0px 0px 0px;
+}
+
+/*override bootstrap*/
+.btn {
+    font-size: 13px !important;
+}
+
+.form-control {
+    font-size: 13px !important;
+}
+
+.lefttable {
+    padding: 0px 20px 0px 40px;
+}
+
+.righttable {
+    padding: 0px 40px 0px 20px;
+}
+
+.dashboard_table_viewall {
+    width: 100%;
+}
+
+.legendstyle {
+    border-bottom: 1px solid #CCC;
+    font-size: 18px;
+}
+
+.searchlabel {
+    color: #FFF;
+    font-weight: bold;
+}
+
+
+.searchbar {
+    margin-top: 20px;
+    background-image: linear-gradient(#777, #212529, #222, #212529);
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px !important;
+}
+
+.searchkeytext {
+    font-size: 8pt !important;
+}
+
+.searchoptionsbar {
+    padding-top: 5px;
+    padding-right: 0px;
+}
+
+.searchoptionsdiv {
+    padding-top: 10px;
+    padding-left: 5px !important;
+    padding-right: 0px !important;
+}
+
+.searchoptionsbuttondiv {
+    padding-top: 5px;
+    padding-left: 20px !important;
+    padding-right: 0px !important;
+}
+
+.searchoptionsbutton {
+    font-size: 8pt !important;
+}
+
+.searchoptionslink {
+    color: #FFF;
+    font-size: 8pt;
+    text-decoration: none;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+    .searchoptionslink:link {
+        color: #FFF;
+        font-size: 8pt;
+        text-decoration: none;
+    }
+
+    .searchoptionslink:visited {
+        color: #FFF;
+        font-size: 8pt;
+        text-decoration: none;
+    }
+
+    .searchoptionslink:hover {
+        color: #CCC;
+        font-size: 8pt;
+        text-decoration: none;
+    }
+
+    .searchoptionslink:active {
+        color: #FFF;
+        font-weight: bold;
+        font-size: 8pt;
+        text-decoration: none;
+    }
+
+.hiddenpanel {
+    background-color: #777;
+    padding-bottom: 10px;
+}
+
+.contactstatusdiv {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+.contactstatus {
+    font-size: 8pt !important;
+    height: 2rem !important;
+}
+
+.searchdeletedleads {
+    font-size: 8pt !important;
+    color: #FFF;
+    font-style: italic;
+}
+
+.searchdeletedleadscb {
+    margin-top: .2rem !important;
+}
+
+.sidescroller {
+    overflow: hidden;
+    border-top: 1px solid #dee2e6 !important;
+    border-left: 1px solid #dee2e6 !important;
+    border-right: 1px solid #dee2e6 !important;
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+ul.contacts-list {
+    display: block;
+    padding: 0px;
+    margin: 0;
+}
+
+
+    ul.contacts-list li {
+        margin: 0;
+        list-style: none;
+        border-bottom: 1px solid #ddd;
+        padding: 10px;
+        background: #f5f5f5;
+        position: relative;
+        overflow: hidden;
+        word-wrap: break-word;
+    }
+
+div.contactdetails-hdr {
+    cursor: all-scroll;
+}
+
+    div.contactdetails-hdr span.contactname {
+        display: block;
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+
+    div.contactdetails-hdr span.badge {
+        display: inline !important;
+        font-size: 11px;
+        /*color: #666;*/
+        margin-bottom: 10px;
+        margin-right: 5px;
+    }
+
+.RadDataPager {
+    display: block;
+    min-height: 22px;
+    padding: 3px 0;
+    font-size: 11px;
+}
+
+.rdpWrap {
+    margin-top: 10px;
+    float: left;
+    padding: 0 10px;
+    line-height: 22px;
+    white-space: nowrap;
+}
+
+div.RadDataPager .rdpWrap a {
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+    div.RadDataPager .rdpWrap a.raddatapager_curpage {
+        border-top: 1px solid #333 !important;
+        border-left: 1px solid #333 !important;
+        border-right: 1px solid #333 !important;
+        border-bottom: 1px solid #333 !important;
+        cursor: default !important;
+    }
+
+.hdrclp.active {
+    background: url(../images/ar_dn.png) no-repeat 0 center;
+}
+
+.hdrclp {
+    background: url(../images/ar_rt.png) no-repeat 0 center;
+}
+
+a.hdrclp {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.canvasjs-chart-credit {
+    display: none;
+}
+
+div.contactdetail-icons {
+    text-align: right;
+    background-color: rgba(71,107,128,0.3);
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contactdetail-options {
+    position: absolute;
+    left: 45px;
+    top: 28%;
+    padding: 3px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+a.sideMenu {
+    display: inline-block;
+    padding: 0 3px;
+    border: 1px solid #ccc;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    background: #fff;
+    float: left;
+    border-width: 1px 1px 1px 0;
+}
+
+.tooltip {
+    font-size: 8pt;
+}
+
+
+.searchdropdown {
+    display: none;
+}
+
+    .searchdropdown.active {
+        display: block;
+        position: absolute;
+        background-color: #FFF;
+        border: 1px solid #eaeaea;
+    }
+
+.dropdowngroup {
+    display: inline !important;
+}
+
+.dropdown-item {
+    font-size: 8pt !important;
+}
+
+.dropdown-toggle:link {
+    color: #353535;
+    text-decoration: none;
+    font-size: 8pt;
+}
+
+.dropdown-toggle:visited {
+    color: #353535;
+    text-decoration: none;
+    font-size: 8pt;
+}
+
+.dropdown-toggle:hover {
+    color: #5c5c5c;
+    text-decoration: none;
+    font-size: 8pt;
+}
+
+.dropdown-toggle:active {
+    color: #353535;
+    text-decoration: none;
+    font-size: 8pt;
+}
+
+.dropdown-item:hover {
+    background-color: #1f618d;
+    color: #FFF;
+}
+
+.form-check-input {
+    margin-top: .2rem;
+}
+
+.searchcriteria {
+    font-size: 8pt;
+}
+
+
+.smalltable {
+    font-size: 9pt;
+}
+
+.card-header {
+    padding: 0 0 0 0;
+}
+
+
+.mb-0 {
+    padding: 0 0 0 0;
+}
+
+
+.samefieldsearchpad{
+  padding-top:5px;
+}
+
+/*begin - campaigns tab - begin*/
+#stepwizard {
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
+    background-image: linear-gradient(#ebebe0, #CCC, #ebebe0);
+    border-top: 1px solid #ebebe0;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #ebebe0;
+    border-left: 1px solid #CCC;
+}
+
+.campaigntab {
+    display: none;
+}
+/* Make circles that indicate the steps of the form: */
+.step {
+    height: 50px;
+    width: 50px;
+    margin: 0 30px;
+    background-color: #8a8a5c;
+    border: solid;
+    border-width: 1px;
+    border-color: #8a8a5c;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+    /* Mark the active step: */
+    .step.active {
+        opacity: 1;
+    }
+
+    .step.prev {
+        opacity: 1;
+        background-image: linear-gradient(#8a8a5c, #a3a375, #8a8a5c);
+        border: solid;
+        border-width: 1px;
+        border-color: #8a8a5c;
+    }
+
+.stepnum {
+    font-weight: bold;
+    font-size: 18pt;
+    margin: 10px;
+    color: #fff;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+    background-color: #4CAF50;
+}
+/*end - campaigns tab - end*/
+.campaignstatus_panel {
+    padding: 0px 0px 0px 0px;
+}

@@ -1,0 +1,4 @@
+[6/16/2019 12:52:11 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:UserSettings-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid object name 'User_Acccount_Setting'.
+[6/16/2019 12:52:12 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:UserSettings-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid object name 'User_Acccount_Setting'.
+[6/16/2019 1:02:09 PM]	LoggedUser:1f3d066a-d769-460d-878d-4e4359ba0f72	Module:UserSettings-InsertUserSettings	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid object name 'User_Acccount_Setting'.
+[6/16/2019 1:04:12 PM]	LoggedUser:1f3d066a-d769-460d-878d-4e4359ba0f72	Module:UserSettings-InsertUserSettings	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid object name 'User_Acccount_Setting'.

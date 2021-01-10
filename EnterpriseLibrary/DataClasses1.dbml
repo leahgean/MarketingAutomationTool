@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="MarketingAutomationTool" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost\SQLEXPRESS;Initial Catalog=MarketingAutomationTool;User ID=auto" SettingsObjectName="EnterpriseLibrary.Properties.Settings" SettingsPropertyName="AutoMarketerConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Sys_Log" Member="Sys_Logs">
+    <Type Name="Sys_Log">
+      <Column Name="Log_Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Entity_Id" Type="System.String" DbType="VarChar(32)" CanBeNull="true" />
+      <Column Name="Entity_Type" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />
+      <Column Name="Log_Source" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="Log_Type" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />
+      <Column Name="Log_Code" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />
+      <Column Name="Log_Data" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="User_Id" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="Ip_Address" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Date_Created" AutoSync="Never" Type="System.DateTime" DbType="SmallDateTime NOT NULL" IsDbGenerated="true" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

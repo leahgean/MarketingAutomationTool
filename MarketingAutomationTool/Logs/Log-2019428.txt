@@ -1,0 +1,63 @@
+[4/28/2019 3:28:06 PM]	LoggedUser:Admin Account	Module:UserLogin	Id:	Type:Error	Message:Position
+[4/28/2019 3:28:49 PM]	LoggedUser:Admin Account	Module:UserLogin	Id:	Type:Error	Message:Position
+[4/28/2019 3:29:37 PM]	LoggedUser:Admin Account	Module:UserLogin	Id:	Type:Error	Message:Position
+[4/28/2019 3:36:23 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 3:41:06 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 3:41:06 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 3:41:08 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 3:41:08 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 3:50:09 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 3:50:09 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 4:00:47 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 4:00:47 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 4:06:19 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 4:06:19 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 4:18:35 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 4:18:35 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 4:20:17 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 4:20:17 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 4:23:53 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 4:23:53 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 4:28:28 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 4:28:28 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 5:15:28 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 5:15:28 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:Account-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 7:13:41 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:UserSettings-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 7:13:41 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:UserSettings-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 7:16:23 PM]	LoggedUser:1f3d066a-d769-460d-878d-4e4359ba0f72	Module:UserSettings-InsertUserSettings	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Cannot insert the value NULL into column 'Date_Modified', table 'MarketingAutomationTool.dbo.User_Acccount_Setting'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+[4/28/2019 7:21:14 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:UserSettings-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 7:21:14 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:UserSettings-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 7:24:36 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:UserSettings-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 7:24:36 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:UserSettings-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 7:24:37 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:UserSettings-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.
+[4/28/2019 7:24:37 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:UserSettings-GetAccountDetails	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.
+Invalid column name 'SettingCategory'.

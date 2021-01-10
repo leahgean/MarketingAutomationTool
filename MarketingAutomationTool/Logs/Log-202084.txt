@@ -1,0 +1,8 @@
+[8/4/2020 3:23:51 AM]	LoggedUser:e0b31172-b6da-4d4e-bfe2-f32274d03ff1	Module:ContactSearch-GetSearchResult	Id:	Type:Error	Message:Invalid column name 'country'.
+Invalid column name 'country'.
+@TotalRows=0
+@SQL=SELECT * FROM ( SELECT dbo.fn_Lead_PadID(ID) ID, ContactID, AccountID, FirstName, MiddleName, LastName,MobileNumber, EmailAddress,FacebookID, ROW_NUMBER ( )   OVER ( ORDER BY Id ASC )  RowNum FROM Contact WITH (NOLOCK) WHERE (country = 174) AND AccountID='6388071F-36BB-4823-A3ED-8770ADAE0F51' AND IsDeleted=0) sub WHERE RowNum >= 1 AND RowNum <= 5
+[8/4/2020 3:25:56 AM]	LoggedUser:e0b31172-b6da-4d4e-bfe2-f32274d03ff1	Module:ContactSearch-GetSearchResult	Id:	Type:Error	Message:Invalid column name 'country'.
+Invalid column name 'country'.
+@TotalRows=0
+@SQL=SELECT * FROM ( SELECT dbo.fn_Lead_PadID(ID) ID, ContactID, AccountID, FirstName, MiddleName, LastName,MobileNumber, EmailAddress,FacebookID, ROW_NUMBER ( )   OVER ( ORDER BY Id ASC )  RowNum FROM Contact WITH (NOLOCK) WHERE (country = 174) AND AccountID='6388071F-36BB-4823-A3ED-8770ADAE0F51' AND IsDeleted=0) sub WHERE RowNum >= 1 AND RowNum <= 5

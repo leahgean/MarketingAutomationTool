@@ -1,0 +1,10 @@
+[10/4/2020 3:35:15 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactSearch-GetSearchResult	Id:	Type:Error	Message:Could not find stored procedure 'S_ContactSearch_Search'.
+[10/4/2020 4:21:06 AM]	LoggedUser:e0b31172-b6da-4d4e-bfe2-f32274d03ff1	Module:ContactList-AddMemberToList	Id:2	Type:Error	Message:Ambiguous column name 'AccountID'.
+(C.FirstName LIKE '%mary%' OR C.FirstName LIKE '%ste%' OR C.FirstName LIKE '%james%') OR (C.CompanyName IS NOT NULL) AND (C.IsDeleted = 0) AND  AccountID='6388071F-36BB-4823-A3ED-8770ADAE0F51'
+INSERT INTO ContactListContacts(ContactListID, ContactID, CreatedBy, AccountID) SELECT 2 ContactListID, C.ContactID , 'E0B31172-B6DA-4D4E-BFE2-F32274D03FF1' CreatedBy,'6388071F-36BB-4823-A3ED-8770ADAE0F51' AccountId FROM Contact C WITH (NOLOCK) LEFT JOIN ##tmp_AddMemberExcludeList_188 X ON C.[ID]=X.[Value] LEFT JOIN ContactListContacts CC WITH (NOLOCK) ON C.[ContactId]=CC.[ContactId] AND C.AccountID=CC.AccountId WHERE (C.FirstName LIKE '%mary%' OR C.FirstName LIKE '%ste%' OR C.FirstName LIKE '%james%') OR (C.CompanyName IS NOT NULL) AND (C.IsDeleted = 0) AND  AccountID='6388071F-36BB-4823-A3ED-8770ADAE0F51' AND X.[Value] IS NULL AND CC.ContactListId=2 AND CC.Id IS NULL
+[10/4/2020 11:35:10 PM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactList-GetListMembers	Id:2	Type:Error	Message:Invalid object name '##tmp_LM_ExcludeList_2E'.
+Invalid object name '##tmp_LM_ExcludeList_2E'.
+[10/4/2020 11:38:43 PM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactList-GetListMembers	Id:2	Type:Error	Message:Invalid object name '##tmp_LM_ExcludeList_2E'.
+Invalid object name '##tmp_LM_ExcludeList_2E'.
+[10/4/2020 11:40:04 PM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactList-GetListMembers	Id:2	Type:Error	Message:Invalid object name '##tmp_LM_ExcludeList_2E'.
+Invalid object name '##tmp_LM_ExcludeList_2E'.

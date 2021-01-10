@@ -1,0 +1,149 @@
+[1/3/2021 9:43:28 AM]	Message:Campaign Email Service begins to start.	LogLevel:ExecutionSteps
+[1/3/2021 9:43:28 AM]	Message:Watch thread created.	LogLevel:ExecutionSteps
+[1/3/2021 9:43:29 AM]	Message:MAT-EmailQueManager  service is started	LogLevel:ExecutionSteps
+[1/3/2021 9:43:29 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 9:43:29 AM]	Message:Object reference not set to an instance of an object.	LogLevel:ExceptionsOnly
+[1/3/2021 9:44:25 AM]	Message:Campaign Email Service begins to start.	LogLevel:ExecutionSteps
+[1/3/2021 9:44:43 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 9:46:35 AM]	Message:Campaign Email Service begins to start.	LogLevel:ExecutionSteps
+[1/3/2021 9:46:55 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 9:47:20 AM]	Message:Watch thread created.	LogLevel:ExecutionSteps
+[1/3/2021 9:47:48 AM]	Message:MAT-EmailQueManager  service is started	LogLevel:ExecutionSteps
+[1/3/2021 9:47:50 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/3/2021 9:47:53 AM]	Message:Process' NonPaged memory= 20 K, Paged memory= 318 K	LogLevel:Warnings
+
+[1/3/2021 9:49:01 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 9:49:24 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 359 K	LogLevel:Warnings
+
+[1/3/2021 9:50:36 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 9:50:36 AM]	Message:Process' NonPaged memory= 30 K, Paged memory= 369 K	LogLevel:Warnings
+
+[1/3/2021 9:51:18 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/3/2021 5:38:28 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 5:38:28 PM]	Message:Process' NonPaged memory= 29 K, Paged memory= 369 K	LogLevel:Warnings
+
+[1/3/2021 6:42:12 PM]	Message:Campaign Email Service begins to start.	LogLevel:ExecutionSteps
+[1/3/2021 6:42:13 PM]	Message:Watch thread created.	LogLevel:ExecutionSteps
+[1/3/2021 6:42:13 PM]	Message:MAT-EmailQueManager  service is started	LogLevel:ExecutionSteps
+[1/3/2021 6:42:13 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 6:42:13 PM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/3/2021 6:42:14 PM]	Message:The process cannot access the file 'E:\MarketingAutomationTool\MarketingAutomationTool\MarketingAutomationTool\Logs\EmailCampaignLog-202113.txt' because it is being used by another process.	LogLevel:ExceptionsOnly
+[1/3/2021 6:42:46 PM]	Message:Campaign Email Service begins to start.	LogLevel:ExecutionSteps
+[1/3/2021 6:42:51 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 6:42:52 PM]	Message:Watch thread created.	LogLevel:ExecutionSteps
+[1/3/2021 6:42:53 PM]	Message:The process cannot access the file 'E:\MarketingAutomationTool\MarketingAutomationTool\MarketingAutomationTool\Logs\EmailCampaignLog-202113.txt' because it is being used by another process.	LogLevel:ExceptionsOnly
+[1/3/2021 6:43:26 PM]	Message:Campaign Email Service begins to start.	LogLevel:ExecutionSteps
+[1/3/2021 6:43:26 PM]	Message:Watch thread created.	LogLevel:ExecutionSteps
+[1/3/2021 6:43:38 PM]	Message:MAT-EmailQueManager  service is started	LogLevel:ExecutionSteps
+[1/3/2021 6:44:03 PM]	Message:Campaign Email Service begins to start.	LogLevel:ExecutionSteps
+[1/3/2021 6:44:11 PM]	Message:Watch thread created.	LogLevel:ExecutionSteps
+[1/3/2021 6:44:28 PM]	Message:Campaign Email Service begins to start.	LogLevel:ExecutionSteps
+[1/3/2021 6:44:37 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 6:44:41 PM]	Message:Process' NonPaged memory= 19 K, Paged memory= 322 K	LogLevel:Warnings
+
+[1/3/2021 6:44:49 PM]	Message:Watch thread created.	LogLevel:ExecutionSteps
+[1/3/2021 6:44:59 PM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/3/2021 6:45:05 PM]	Message:MAT-EmailQueManager  service is started	LogLevel:ExecutionSteps
+[1/3/2021 6:45:54 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 6:45:56 PM]	Message:Process' NonPaged memory= 25 K, Paged memory= 363 K	LogLevel:Warnings
+
+[1/3/2021 6:46:57 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 6:46:57 PM]	Message:Process' NonPaged memory= 30 K, Paged memory= 373 K	LogLevel:Warnings
+
+[1/3/2021 6:48:01 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 6:48:01 PM]	Message:Process' NonPaged memory= 29 K, Paged memory= 373 K	LogLevel:Warnings
+
+[1/3/2021 6:49:01 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 6:49:01 PM]	Message:Process' NonPaged memory= 29 K, Paged memory= 373 K	LogLevel:Warnings
+
+[1/3/2021 6:49:28 PM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/3/2021 6:50:01 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 6:50:01 PM]	Message:Process' NonPaged memory= 29 K, Paged memory= 373 K	LogLevel:Warnings
+
+[1/3/2021 6:50:49 PM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/3/2021 6:51:01 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 6:51:01 PM]	Message:Process' NonPaged memory= 29 K, Paged memory= 373 K	LogLevel:Warnings
+
+[1/3/2021 6:51:49 PM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/3/2021 6:52:01 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 6:52:01 PM]	Message:Process' NonPaged memory= 30 K, Paged memory= 374 K	LogLevel:Warnings
+
+[1/3/2021 6:52:49 PM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/3/2021 6:53:02 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 6:53:02 PM]	Message:Process' NonPaged memory= 30 K, Paged memory= 374 K	LogLevel:Warnings
+
+[1/3/2021 6:53:49 PM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/3/2021 6:54:02 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 6:54:02 PM]	Message:Process' NonPaged memory= 30 K, Paged memory= 374 K	LogLevel:Warnings
+
+[1/3/2021 6:54:49 PM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/3/2021 6:57:00 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 6:57:00 PM]	Message:Process' NonPaged memory= 29 K, Paged memory= 374 K	LogLevel:Warnings
+
+[1/3/2021 7:23:45 PM]	Message:Campaign Email Service begins to start.	LogLevel:ExecutionSteps
+[1/3/2021 7:23:46 PM]	Message:Watch thread created.	LogLevel:ExecutionSteps
+[1/3/2021 7:23:46 PM]	Message:MAT-EmailQueManager  service is started	LogLevel:ExecutionSteps
+[1/3/2021 7:23:46 PM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/3/2021 7:23:47 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 7:23:47 PM]	Message:Process' NonPaged memory= 20 K, Paged memory= 327 K	LogLevel:Warnings
+
+[1/3/2021 7:23:56 PM]	Message:Attempting to stop the service	LogLevel:ExecutionSteps
+
+[1/3/2021 7:23:57 PM]	Message:MAT-EmailQueManager service is stopped
+
+
+
+	LogLevel:Warnings
+
+[1/3/2021 7:26:09 PM]	Message:Campaign Email Service begins to start.	LogLevel:ExecutionSteps
+[1/3/2021 7:26:09 PM]	Message:Watch thread created.	LogLevel:ExecutionSteps
+[1/3/2021 7:26:10 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 7:26:10 PM]	Message:Process' NonPaged memory= 20 K, Paged memory= 322 K	LogLevel:Warnings
+
+[1/3/2021 7:26:10 PM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/3/2021 7:26:10 PM]	Message:The process cannot access the file 'E:\MarketingAutomationTool\MarketingAutomationTool\MarketingAutomationTool\Logs\EmailCampaignLog-202113.txt' because it is being used by another process.	LogLevel:ExceptionsOnly
+[1/3/2021 7:26:30 PM]	Message:Campaign Email Service begins to start.	LogLevel:ExecutionSteps
+[1/3/2021 7:26:32 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 7:26:32 PM]	Message:Process' NonPaged memory= 19 K, Paged memory= 322 K	LogLevel:Warnings
+
+[1/3/2021 7:26:32 PM]	Message:The process cannot access the file 'E:\MarketingAutomationTool\MarketingAutomationTool\MarketingAutomationTool\Logs\EmailCampaignLog-202113.txt' because it is being used by another process.	LogLevel:ExceptionsOnly
+[1/3/2021 7:28:03 PM]	Message:Campaign Email Service begins to start.	LogLevel:ExecutionSteps
+[1/3/2021 7:28:10 PM]	Message:Watch thread created.	LogLevel:ExecutionSteps
+[1/3/2021 7:28:17 PM]	Message:MAT-EmailQueManager  service is started	LogLevel:ExecutionSteps
+[1/3/2021 7:28:17 PM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/3/2021 7:29:13 PM]	Message:Campaign Email Service begins to start.	LogLevel:ExecutionSteps
+[1/3/2021 7:29:20 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 7:29:21 PM]	Message:Watch thread created.	LogLevel:ExecutionSteps
+[1/3/2021 7:29:21 PM]	Message:The process cannot access the file 'E:\MarketingAutomationTool\MarketingAutomationTool\MarketingAutomationTool\Logs\EmailCampaignLog-202113.txt' because it is being used by another process.	LogLevel:ExceptionsOnly
+[1/3/2021 7:29:36 PM]	Message:Campaign Email Service begins to start.	LogLevel:ExecutionSteps
+[1/3/2021 7:29:39 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 7:29:39 PM]	Message:Process' NonPaged memory= 19 K, Paged memory= 322 K	LogLevel:Warnings
+
+[1/3/2021 7:29:39 PM]	Message:Watch thread created.	LogLevel:ExecutionSteps
+[1/3/2021 7:29:39 PM]	Message:MAT-EmailQueManager  service is started	LogLevel:ExecutionSteps
+[1/3/2021 7:30:02 PM]	Message:Campaign Email Service begins to start.	LogLevel:ExecutionSteps
+[1/3/2021 7:30:14 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 7:30:30 PM]	Message:Watch thread created.	LogLevel:ExecutionSteps
+[1/3/2021 7:30:47 PM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/3/2021 7:30:52 PM]	Message:The process cannot access the file 'E:\MarketingAutomationTool\MarketingAutomationTool\MarketingAutomationTool\Logs\EmailCampaignLog-202113.txt' because it is being used by another process.	LogLevel:ExceptionsOnly
+[1/3/2021 7:32:51 PM]	Message:Campaign Email Service begins to start.	LogLevel:ExecutionSteps
+[1/3/2021 7:32:52 PM]	Message:Watch thread created.	LogLevel:ExecutionSteps
+[1/3/2021 7:36:36 PM]	Message:Campaign Email Service begins to start.	LogLevel:ExecutionSteps
+[1/3/2021 7:36:38 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 7:36:38 PM]	Message:MAT-EmailQueManager  service is started	LogLevel:ExecutionSteps
+[1/3/2021 7:36:38 PM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/3/2021 7:38:19 PM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/3/2021 7:38:19 PM]	Message:Process' NonPaged memory= 30 K, Paged memory= 373 K	LogLevel:Warnings
+
+[1/3/2021 7:39:19 PM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/3/2021 7:39:31 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 7:39:31 PM]	Message:Process' NonPaged memory= 29 K, Paged memory= 373 K	LogLevel:Warnings
+
+[1/3/2021 7:40:31 PM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/3/2021 7:40:36 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 7:40:36 PM]	Message:Process' NonPaged memory= 29 K, Paged memory= 373 K	LogLevel:Warnings
+
+[1/3/2021 7:41:36 PM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/3/2021 7:41:38 PM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/3/2021 7:41:38 PM]	Message:Process' NonPaged memory= 30 K, Paged memory= 373 K	LogLevel:Warnings
+

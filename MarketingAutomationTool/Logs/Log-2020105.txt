@@ -1,0 +1,11 @@
+[10/5/2020 5:26:06 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactList-GetListMembers	Id:2	Type:Error	Message:Incorrect syntax near the keyword 'ASC'.
+Incorrect syntax near the keyword 'ASC'.
+[10/5/2020 5:31:01 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactList-GetListMembers	Id:2	Type:Error	Message:Incorrect syntax near the keyword 'ASC'.
+Incorrect syntax near the keyword 'ASC'.
+[10/5/2020 5:32:51 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactList-GetListMembers	Id:2	Type:Error	Message:Incorrect syntax near the keyword 'ASC'.
+Incorrect syntax near the keyword 'ASC'.
+[10/5/2020 5:44:03 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactList-GetRemovedListMembers	Id:2	Type:Error	Message:Invalid column name 'RowNum'.
+Invalid column name 'RowNum'.
+[10/5/2020 5:44:31 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactList-GetRemovedListMembers	Id:2	Type:Error	Message:Invalid column name 'RowNum'.
+Invalid column name 'RowNum'.
+[10/5/2020 2:47:53 PM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactList-ModifyMemberList	Id:2	Type:Error	Message:Procedure or function S_List_ModifyMembers has too many arguments specified.

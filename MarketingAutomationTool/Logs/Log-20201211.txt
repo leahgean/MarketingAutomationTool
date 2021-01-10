@@ -1,0 +1,1 @@
+[12/11/2020 11:21:38 PM]	LoggedUser:0c83b805-545b-48ea-8d05-6872f31ed58a	Module:Campaign2-InsertEmailsOpened	Id:e1cc4d6c-1293-489f-9b18-e9518580a312	Type:Error	Message:Can't perform Create, Update, or Delete operations on 'Table(CampaignsOpened)' because it has no primary key.

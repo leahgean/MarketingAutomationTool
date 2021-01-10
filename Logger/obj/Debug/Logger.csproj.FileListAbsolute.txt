@@ -1,0 +1,5 @@
+E:\MarketingAutomationTool\MarketingAutomationTool\Logger\bin\Debug\Logger.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\Logger\bin\Debug\Logger.pdb
+E:\MarketingAutomationTool\MarketingAutomationTool\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
+E:\MarketingAutomationTool\MarketingAutomationTool\Logger\obj\Debug\Logger.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\Logger\obj\Debug\Logger.pdb

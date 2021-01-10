@@ -1,0 +1,5 @@
+[5/5/2019 5:48:32 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:DefaultSCore-GetDefaultScore	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Must declare the scalar variable "@Account_Id".
+[5/5/2019 5:59:15 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:DefaultSCore-GetDefaultScore	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'Form_Confirm'.
+[5/5/2019 6:27:20 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:DefaultScore-UpdateDefaultScore	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Incorrect syntax near the keyword 'WHERE'.
+[5/5/2019 6:33:56 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:DefaultScore-UpdateDefaultScore	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Must declare the scalar variable "@IdAND".
+[5/5/2019 6:36:46 PM]	LoggedUser:ccf4d547-c9ec-42b4-97df-b12752734323	Module:DefaultScore-UpdateDefaultScore	Id:ccf4d547-c9ec-42b4-97df-b12752734323	Type:Error	Message:Invalid column name 'AccountId'.

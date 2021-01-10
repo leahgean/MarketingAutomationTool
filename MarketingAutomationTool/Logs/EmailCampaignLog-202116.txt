@@ -1,0 +1,319 @@
+[1/6/2021 12:48:48 AM]	Message:Campaign Email Service begins to start.	LogLevel:ExecutionSteps
+[1/6/2021 12:48:48 AM]	Message:Watch thread created.	LogLevel:ExecutionSteps
+[1/6/2021 12:48:48 AM]	Message:MAT-EmailQueManager  service is started	LogLevel:ExecutionSteps
+[1/6/2021 12:48:48 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 12:48:49 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 12:48:49 AM]	Message:Process' NonPaged memory= 17 K, Paged memory= 260 K	LogLevel:Warnings
+
+[1/6/2021 12:49:49 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 12:49:49 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 307 K	LogLevel:Warnings
+
+[1/6/2021 12:50:49 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 12:50:50 AM]	Message:Process' NonPaged memory= 27 K, Paged memory= 307 K	LogLevel:Warnings
+
+[1/6/2021 12:51:50 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 12:51:50 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 307 K	LogLevel:Warnings
+
+[1/6/2021 12:52:50 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 12:52:50 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 307 K	LogLevel:Warnings
+
+[1/6/2021 12:53:46 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 12:53:51 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 12:53:51 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 307 K	LogLevel:Warnings
+
+[1/6/2021 12:54:51 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 12:54:51 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 12:54:59 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 12:55:51 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 12:55:51 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 308 K	LogLevel:Warnings
+
+[1/6/2021 12:56:00 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 12:56:51 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 12:56:53 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 308 K	LogLevel:Warnings
+
+[1/6/2021 12:57:03 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 12:57:53 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 12:57:53 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 308 K	LogLevel:Warnings
+
+[1/6/2021 12:58:11 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 12:58:53 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 12:58:53 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 308 K	LogLevel:Warnings
+
+[1/6/2021 12:59:13 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 12:59:53 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 12:59:53 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 308 K	LogLevel:Warnings
+
+[1/6/2021 1:00:30 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:00:53 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:00:54 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 308 K	LogLevel:Warnings
+
+[1/6/2021 1:01:31 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:01:54 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:01:54 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 308 K	LogLevel:Warnings
+
+[1/6/2021 1:02:32 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:02:54 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:02:54 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 308 K	LogLevel:Warnings
+
+[1/6/2021 1:03:33 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:03:54 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:03:54 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 308 K	LogLevel:Warnings
+
+[1/6/2021 1:04:33 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:04:54 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:04:54 AM]	Message:Process' NonPaged memory= 27 K, Paged memory= 308 K	LogLevel:Warnings
+
+[1/6/2021 1:05:34 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:05:54 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:05:54 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 308 K	LogLevel:Warnings
+
+[1/6/2021 1:06:34 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:06:54 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:06:54 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 308 K	LogLevel:Warnings
+
+[1/6/2021 1:07:34 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:07:54 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:07:55 AM]	Message:Process' NonPaged memory= 27 K, Paged memory= 308 K	LogLevel:Warnings
+
+[1/6/2021 1:08:34 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:08:55 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:08:55 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:09:39 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:09:55 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:09:55 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:10:40 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:10:56 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:10:56 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:11:40 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:11:56 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:11:56 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:12:40 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:12:56 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:12:56 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:13:40 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:13:56 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:13:56 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:14:40 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:14:56 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:14:56 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:15:41 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:15:56 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:15:56 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:16:48 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:16:56 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:16:56 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:17:48 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:17:56 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:17:56 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:18:48 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:18:56 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:18:56 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:19:53 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:19:56 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:19:56 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:20:53 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:20:56 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:20:57 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:21:53 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:21:57 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:21:57 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:22:53 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:22:57 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:22:57 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:23:53 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:23:57 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:23:57 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:24:53 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:25:00 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:25:02 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:26:02 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:26:11 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:27:09 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:27:11 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:27:11 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:28:11 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:28:11 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:29:00 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:29:11 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:29:11 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:30:00 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:30:11 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:30:12 AM]	Message:Process' NonPaged memory= 27 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:31:05 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:31:12 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:31:12 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:32:05 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:32:12 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:32:12 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:33:06 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:33:12 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:33:12 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:34:06 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:34:12 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:34:12 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:35:06 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:35:12 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:35:12 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:36:06 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:36:12 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:36:12 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:37:06 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:37:12 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:37:12 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:38:06 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:38:12 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:38:12 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:39:06 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:39:12 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:39:12 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:40:07 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:40:12 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:40:12 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:41:07 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:41:12 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:41:12 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:42:07 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:42:12 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:42:12 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:43:07 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:43:12 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:43:12 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:44:07 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:44:12 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:44:12 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:45:07 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:45:12 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:45:12 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:46:08 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:46:12 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:46:12 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:47:08 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:47:12 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:47:12 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:48:08 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:48:12 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:48:12 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:49:08 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:49:13 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:49:13 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:50:08 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:50:13 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:50:13 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:51:08 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:51:13 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:51:13 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:52:08 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:52:13 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:52:13 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:53:08 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:53:13 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:53:13 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:54:08 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:54:13 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:54:13 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:55:09 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:55:13 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:55:13 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:56:09 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:56:13 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:56:13 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:57:09 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:57:13 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:57:13 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:58:09 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:58:13 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 1:58:13 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 1:59:10 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 1:59:37 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 2:00:38 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 2:00:38 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 2:01:19 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 2:01:39 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 2:01:40 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 2:02:39 AM]	Message:Getting Campaign Que	LogLevel:ExecutionSteps
+[1/6/2021 2:04:36 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 2:07:08 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 2:09:04 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 2:09:05 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 2:10:10 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 2:10:20 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 2:11:48 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 2:12:56 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 2:13:56 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 2:13:57 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 2:16:27 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 2:16:39 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 2:18:03 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 2:31:05 AM]	Message:Process' NonPaged memory= 25 K, Paged memory= 306 K	LogLevel:Warnings
+
+[1/6/2021 2:32:07 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 2:32:07 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 308 K	LogLevel:Warnings
+
+[1/6/2021 2:33:07 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 2:33:07 AM]	Message:Process' NonPaged memory= 26 K, Paged memory= 309 K	LogLevel:Warnings
+
+[1/6/2021 2:34:25 AM]	Message:Watch kicks in	LogLevel:ExecutionSteps
+[1/6/2021 2:34:27 AM]	Message:Process' NonPaged memory= 105 K, Paged memory= 309 K	LogLevel:Warnings
+
+[1/6/2021 2:34:27 AM]	Message:Process has exceeded Memory threshhold. Currently NonPaged memory= 105 K, Paged memory=	LogLevel:Warnings
+

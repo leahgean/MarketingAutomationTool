@@ -1,0 +1,7 @@
+[12/28/2019 1:03:20 AM]	LoggedUser:1f3d066a-d769-460d-878d-4e4359ba0f72	Module:Lead-CreateContactList	Id:List One	Type:Error	Message:The SqlParameterCollection only accepts non-null SqlParameter type objects, not Int32 objects.
+[12/28/2019 1:08:32 AM]	LoggedUser:1f3d066a-d769-460d-878d-4e4359ba0f72	Module:Lead-CreateContactList	Id:List One	Type:Error	Message:Procedure or function 'S_ContactList_Insert' expects parameter '@Id', which was not supplied.
+[12/28/2019 1:25:40 AM]	LoggedUser:List One	Module:ContactList-UniqueListName	Id:	Type:Error	Message:Index was outside the bounds of the array.
+[12/28/2019 1:25:55 AM]	LoggedUser:List Two	Module:ContactList-UniqueListName	Id:	Type:Error	Message:Index was outside the bounds of the array.
+[12/28/2019 1:26:04 AM]	LoggedUser:List Two	Module:ContactList-UniqueListName	Id:	Type:Error	Message:Index was outside the bounds of the array.
+[12/28/2019 1:26:23 AM]	LoggedUser:List Two	Module:ContactList-UniqueListName	Id:	Type:Error	Message:Index was outside the bounds of the array.
+[12/28/2019 1:30:19 AM]	LoggedUser:List One	Module:ContactList-UniqueListName	Id:	Type:Error	Message:Index was outside the bounds of the array.

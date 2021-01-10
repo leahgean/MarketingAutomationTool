@@ -1,0 +1,11 @@
+E:\MarketingAutomationTool\MarketingAutomationTool\Common.Business\bin\Release\Common.Business.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\Common.Business\bin\Release\Common.Business.pdb
+E:\MarketingAutomationTool\MarketingAutomationTool\Common.Business\bin\Release\Common.Data.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\Common.Business\bin\Release\Logger.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\Common.Business\bin\Release\Common.Data.pdb
+E:\MarketingAutomationTool\MarketingAutomationTool\Common.Business\bin\Release\Logger.pdb
+E:\MarketingAutomationTool\MarketingAutomationTool\Common.Business\obj\Release\Common.Business.csprojAssemblyReference.cache
+E:\MarketingAutomationTool\MarketingAutomationTool\Common.Business\obj\Release\Common.Business.csproj.CoreCompileInputs.cache
+E:\MarketingAutomationTool\MarketingAutomationTool\Common.Business\obj\Release\Common.Business.csproj.CopyComplete
+E:\MarketingAutomationTool\MarketingAutomationTool\Common.Business\obj\Release\Common.Business.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\Common.Business\obj\Release\Common.Business.pdb

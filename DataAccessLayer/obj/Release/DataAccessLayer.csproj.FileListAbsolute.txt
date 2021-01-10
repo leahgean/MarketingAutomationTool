@@ -1,0 +1,16 @@
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\bin\Release\DataAccessLayer.dll.config
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\bin\Release\DataAccessLayer.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\bin\Release\DataAccessLayer.pdb
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\bin\Release\Dapper.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\bin\Release\DataModels.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\bin\Release\Logger.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\bin\Release\Newtonsoft.Json.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\bin\Release\DataModels.pdb
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\bin\Release\Logger.pdb
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\bin\Release\Dapper.xml
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\bin\Release\Newtonsoft.Json.xml
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\obj\Release\DataAccessLayer.csprojAssemblyReference.cache
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\obj\Release\DataAccessLayer.csproj.CoreCompileInputs.cache
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\obj\Release\DataAccessLayer.csproj.CopyComplete
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\obj\Release\DataAccessLayer.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\DataAccessLayer\obj\Release\DataAccessLayer.pdb

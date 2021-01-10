@@ -1,0 +1,1 @@
+[11/13/2020 12:11:54 AM]	LoggedUser:03271c41-1c87-40b4-aaa9-8a5ee1dfc617	Module:ContactList-AddMemberToList	Id:4	Type:Error	Message:Incorrect syntax near ')'.

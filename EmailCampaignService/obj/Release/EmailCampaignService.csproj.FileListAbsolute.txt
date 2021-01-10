@@ -1,0 +1,17 @@
+E:\MarketingAutomationTool\MarketingAutomationTool\EmailCampaignService\bin\Release\EmailCampaignService.exe.config
+E:\MarketingAutomationTool\MarketingAutomationTool\EmailCampaignService\bin\Release\EmailCampaignService.exe
+E:\MarketingAutomationTool\MarketingAutomationTool\EmailCampaignService\bin\Release\EmailCampaignService.pdb
+E:\MarketingAutomationTool\MarketingAutomationTool\EmailCampaignService\bin\Release\EnterpriseLibrary.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\EmailCampaignService\bin\Release\Logger.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\EmailCampaignService\bin\Release\Common.Business.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\EmailCampaignService\bin\Release\Common.Data.dll
+E:\MarketingAutomationTool\MarketingAutomationTool\EmailCampaignService\bin\Release\EnterpriseLibrary.pdb
+E:\MarketingAutomationTool\MarketingAutomationTool\EmailCampaignService\bin\Release\EnterpriseLibrary.dll.config
+E:\MarketingAutomationTool\MarketingAutomationTool\EmailCampaignService\bin\Release\Logger.pdb
+E:\MarketingAutomationTool\MarketingAutomationTool\EmailCampaignService\bin\Release\Common.Business.pdb
+E:\MarketingAutomationTool\MarketingAutomationTool\EmailCampaignService\bin\Release\Common.Data.pdb
+E:\MarketingAutomationTool\MarketingAutomationTool\EmailCampaignService\obj\Release\EmailCampaignService.csprojAssemblyReference.cache
+E:\MarketingAutomationTool\MarketingAutomationTool\EmailCampaignService\obj\Release\EmailCampaignService.csproj.CoreCompileInputs.cache
+E:\MarketingAutomationTool\MarketingAutomationTool\EmailCampaignService\obj\Release\EmailCampaignService.csproj.CopyComplete
+E:\MarketingAutomationTool\MarketingAutomationTool\EmailCampaignService\obj\Release\EmailCampaignService.exe
+E:\MarketingAutomationTool\MarketingAutomationTool\EmailCampaignService\obj\Release\EmailCampaignService.pdb

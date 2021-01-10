@@ -1,0 +1,2 @@
+[12/9/2020 12:03:42 AM]	LoggedUser:97263116-24c8-4cbf-9fc8-0360aad6e049	Module:Campaign2-InsertClickthroughs	Id:505646d6-1a7c-4a32-a842-8c9cc8ca4497	Type:Error	Message:Can't perform Create, Update, or Delete operations on 'Table(CampaignClickThrough)' because it has no primary key.
+[12/9/2020 12:52:18 AM]	LoggedUser:97263116-24c8-4cbf-9fc8-0360aad6e049	Module:Lead-Unsubscribe	Id:Romaine_Kihn@mailinator.com	Type:Error	Message:Procedure or function 'S_LEAD_UpdateContactSubscription' expects parameter '@ACTION', which was not supplied.

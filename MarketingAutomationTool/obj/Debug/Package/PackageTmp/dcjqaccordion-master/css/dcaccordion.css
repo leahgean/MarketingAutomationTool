@@ -1,0 +1,17 @@
+/* Page */
+body,html,div,blockquote,img,label,p,h1,h2,h3,h4,h5,h6,pre,ul,ol,li,dl,dt,dd,form,a,fieldset,input,th,td{border:0;outline:none;margin:0;padding:0;}
+ul, ul li{list-style: none;}
+ul.text {margin-bottom: 1em; line-height: 1.5em;}
+.text-center {text-align: center;}
+body {font: normal 12px Arial, sans-serif;}
+h2 {font: normal 26px Arial, sans-serif; padding: 20px 0; margin: 0 0 30px 0;}
+.wrap {width: 920px; margin: 0 auto;}
+.accordion-container-left {padding: 20px 0px 0px 5px; margin: 0px 0px 0px 0px;  float: left; width: 190px;}
+.accordion-container-left h4 {font-size: 14px; margin: 0 0 5px 0;}
+
+.accordion-container-right {padding: 20px 0px 0px 0px; margin: 0px 0px 0px 0px; float: right; width: 190px;}
+.accordion-container-right h4 {font-size: 14px; margin: 0 0 5px 0;}
+
+.clear {clear: both;}
+
+.dcjq-count {float: right;}

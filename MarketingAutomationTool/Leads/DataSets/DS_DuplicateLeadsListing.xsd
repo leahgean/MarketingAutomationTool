@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_DuplicateLeadsListing" targetNamespace="http://tempuri.org/DS_DuplicateLeadsListing.xsd" xmlns:mstns="http://tempuri.org/DS_DuplicateLeadsListing.xsd" xmlns="http://tempuri.org/DS_DuplicateLeadsListing.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_DuplicateLeadsListing" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS_DuplicateLeadsListing" msprop:Generator_UserDSName="DS_DuplicateLeadsListing">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblLeadsListing" msprop:Generator_TableClassName="tblLeadsListingDataTable" msprop:Generator_TableVarName="tabletblLeadsListing" msprop:Generator_TablePropName="tblLeadsListing" msprop:Generator_RowDeletingName="tblLeadsListingRowDeleting" msprop:Generator_RowChangingName="tblLeadsListingRowChanging" msprop:Generator_RowEvHandlerName="tblLeadsListingRowChangeEventHandler" msprop:Generator_RowDeletedName="tblLeadsListingRowDeleted" msprop:Generator_UserTableName="tblLeadsListing" msprop:Generator_RowChangedName="tblLeadsListingRowChanged" msprop:Generator_RowEvArgName="tblLeadsListingRowChangeEvent" msprop:Generator_RowClassName="tblLeadsListingRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FirstName" msprop:Generator_ColumnVarNameInTable="columnFirstName" msprop:Generator_ColumnPropNameInRow="FirstName" msprop:Generator_ColumnPropNameInTable="FirstNameColumn" msprop:Generator_UserColumnName="FirstName" type="xs:string" minOccurs="0" />
+              <xs:element name="LastName" msprop:Generator_ColumnVarNameInTable="columnLastName" msprop:Generator_ColumnPropNameInRow="LastName" msprop:Generator_ColumnPropNameInTable="LastNameColumn" msprop:Generator_UserColumnName="LastName" type="xs:string" minOccurs="0" />
+              <xs:element name="EmailAddress" msprop:Generator_ColumnVarNameInTable="columnEmailAddress" msprop:Generator_ColumnPropNameInRow="EmailAddress" msprop:Generator_ColumnPropNameInTable="EmailAddressColumn" msprop:Generator_UserColumnName="EmailAddress" type="xs:string" minOccurs="0" />
+              <xs:element name="CreatedDate" msprop:Generator_ColumnVarNameInTable="columnCreatedDate" msprop:Generator_ColumnPropNameInRow="CreatedDate" msprop:Generator_ColumnPropNameInTable="CreatedDateColumn" msprop:Generator_UserColumnName="CreatedDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ImportSource" msprop:Generator_ColumnVarNameInTable="columnImportSource" msprop:Generator_ColumnPropNameInRow="ImportSource" msprop:Generator_ColumnPropNameInTable="ImportSourceColumn" msprop:Generator_UserColumnName="ImportSource" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblTotal" msprop:Generator_TableClassName="tblTotalDataTable" msprop:Generator_TableVarName="tabletblTotal" msprop:Generator_TablePropName="tblTotal" msprop:Generator_RowDeletingName="tblTotalRowDeleting" msprop:Generator_RowChangingName="tblTotalRowChanging" msprop:Generator_RowEvHandlerName="tblTotalRowChangeEventHandler" msprop:Generator_RowDeletedName="tblTotalRowDeleted" msprop:Generator_UserTableName="tblTotal" msprop:Generator_RowChangedName="tblTotalRowChanged" msprop:Generator_RowEvArgName="tblTotalRowChangeEvent" msprop:Generator_RowClassName="tblTotalRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Count" msprop:Generator_ColumnVarNameInTable="columnCount" msprop:Generator_ColumnPropNameInRow="Count" msprop:Generator_ColumnPropNameInTable="CountColumn" msprop:Generator_UserColumnName="Count" type="xs:int" minOccurs="0" />
+              <xs:element name="GenerateTime" msprop:Generator_ColumnVarNameInTable="columnGenerateTime" msprop:Generator_ColumnPropNameInRow="GenerateTime" msprop:Generator_ColumnPropNameInTable="GenerateTimeColumn" msprop:Generator_UserColumnName="GenerateTime" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

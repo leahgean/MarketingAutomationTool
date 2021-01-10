@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 21.25" name="DataClasses1">
+  <DataContextMoniker Name="/DataClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="ba1210f4-4dfb-4196-8797-6bcc934b6aaa" absoluteBounds="4.625, 0.75, 2, 2.5401025390625">
+      <DataClassMoniker Name="/DataClasses1DataContext/CampaignContact" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4bb1a0f1-97f7-4e14-921b-2f7427f6e106" absoluteBounds="4.6400000000000006, 1.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d2088196-d81a-4ef1-891c-560e22d5be2e" absoluteBounds="3.625, 4.5, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/DataClasses1DataContext/Message" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2d47523f-ef0f-4392-aa1a-b81b93889141" absoluteBounds="3.64, 4.96, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ef3cf6ca-b5b8-4914-8fd8-f079cfab000e" absoluteBounds="6.125, 6, 2, 7.7322412109375005">
+      <DataClassMoniker Name="/DataClasses1DataContext/Contact" />
+      <nestedChildShapes>
+        <elementListCompartment Id="19c9b7ec-a9a5-429f-855b-cf20dc98201d" absoluteBounds="6.14, 6.46, 1.9700000000000002, 7.1722412109375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.29687375 : 6); (6.29687375 : 3.2901025390625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClasses1DataContext/Contact/Contact_CampaignContact" />
+      <nodes>
+        <classShapeMoniker Id="ef3cf6ca-b5b8-4914-8fd8-f079cfab000e" />
+        <classShapeMoniker Id="ba1210f4-4dfb-4196-8797-6bcc934b6aaa" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a27cb497-bd8b-4c0b-a6a5-f2b11b61f3a3" absoluteBounds="0.625, 0.5, 2, 6.7707340494791657">
+      <DataClassMoniker Name="/DataClasses1DataContext/Account" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5f5749ea-0c69-4a5e-b07c-7bdac0ec25d5" absoluteBounds="0.63999999999999968, 0.96, 1.9700000000000002, 6.2107340494791661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.625 : 2.02005126953125); (4.625 : 2.02005126953125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Account/Account_CampaignContact" />
+      <nodes>
+        <classShapeMoniker Id="a27cb497-bd8b-4c0b-a6a5-f2b11b61f3a3" />
+        <classShapeMoniker Id="ba1210f4-4dfb-4196-8797-6bcc934b6aaa" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.625 : 5.88536702473958); (3.13541666666667 : 5.88536702473958 : JumpStart); (3.30208333333333 : 5.88536702473958 : JumpEnd); (3.38541666666667 : 5.88536702473958 : JumpStart); (3.55208333333333 : 5.88536702473958 : JumpEnd); (3.625 : 5.88536702473958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Account/Account_Message" />
+      <nodes>
+        <classShapeMoniker Id="a27cb497-bd8b-4c0b-a6a5-f2b11b61f3a3" />
+        <classShapeMoniker Id="d2088196-d81a-4ef1-891c-560e22d5be2e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.625 : 3.89505126953125); (3.38541666666667 : 3.89505126953125 : JumpStart); (3.55208333333333 : 3.89505126953125 : JumpEnd); (6.21354041666667 : 3.89505126953125 : JumpStart); (6.38020708333333 : 3.89505126953125 : JumpEnd); (7.40625 : 3.89505126953125); (7.40625 : 6)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Account/Account_Contact" />
+      <nodes>
+        <classShapeMoniker Id="a27cb497-bd8b-4c0b-a6a5-f2b11b61f3a3" />
+        <classShapeMoniker Id="ef3cf6ca-b5b8-4914-8fd8-f079cfab000e" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="295d2a4d-4da5-42c8-acf2-8d38eee827bf" absoluteBounds="3.125, 18.125, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/DataClasses1DataContext/CampaignClickThrough" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c035375f-94e4-45b0-8cad-895ac3e419fa" absoluteBounds="3.14, 18.585, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.625 : 4.19752813476562); (3.21875 : 4.19752813476562); (3.21875 : 18.125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Account/Account_CampaignClickThrough" />
+      <nodes>
+        <classShapeMoniker Id="a27cb497-bd8b-4c0b-a6a5-f2b11b61f3a3" />
+        <classShapeMoniker Id="295d2a4d-4da5-42c8-acf2-8d38eee827bf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.44531125 : 13.7322412109375); (7.44531125 : 19.3309147135417); (5.125 : 19.3309147135417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Contact/Contact_CampaignClickThrough" />
+      <nodes>
+        <classShapeMoniker Id="ef3cf6ca-b5b8-4914-8fd8-f079cfab000e" />
+        <classShapeMoniker Id="295d2a4d-4da5-42c8-acf2-8d38eee827bf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.222653125 : 13.7322412109375); (7.222653125 : 18.6967048567708); (5.125 : 18.6967048567708)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Contact/Contact_CampaignClickThrough1" />
+      <nodes>
+        <classShapeMoniker Id="ef3cf6ca-b5b8-4914-8fd8-f079cfab000e" />
+        <classShapeMoniker Id="295d2a4d-4da5-42c8-acf2-8d38eee827bf" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="5a46daa5-c537-47ee-849f-654d85fc9ed6" absoluteBounds="5, 14.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DataClasses1DataContext/CampaignsOpened" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1e0eaaf3-5cec-4905-ba83-80612b047b22" absoluteBounds="5.015, 15.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.59375 : 7.27073404947917); (2.59375 : 16.7972639973958); (2.79166666666667 : 16.7972639973958 : JumpStart); (2.95833333333333 : 16.7972639973958 : JumpEnd); (3.12093098958333 : 16.7972639973958 : JumpStart); (3.30208333333333 : 16.7972639973958 : JumpEnd); (5 : 16.7972639973958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Account/Account_CampaignsOpened" />
+      <nodes>
+        <classShapeMoniker Id="a27cb497-bd8b-4c0b-a6a5-f2b11b61f3a3" />
+        <classShapeMoniker Id="5a46daa5-c537-47ee-849f-654d85fc9ed6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.5625 : 13.7322412109375); (6.5625 : 14.75)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Contact/Contact_CampaignsOpened" />
+      <nodes>
+        <classShapeMoniker Id="ef3cf6ca-b5b8-4914-8fd8-f079cfab000e" />
+        <classShapeMoniker Id="5a46daa5-c537-47ee-849f-654d85fc9ed6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.84375 : 13.7322412109375); (6.84375 : 14.75)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Contact/Contact_CampaignsOpened1" />
+      <nodes>
+        <classShapeMoniker Id="ef3cf6ca-b5b8-4914-8fd8-f079cfab000e" />
+        <classShapeMoniker Id="5a46daa5-c537-47ee-849f-654d85fc9ed6" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="53cf9b51-8916-4d5b-9f92-7252a2eb47e4" absoluteBounds="0.5, 12.125, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DataClasses1DataContext/CampaignUnsubscribe" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b4a50988-6290-452f-ae30-5cf22820b3fb" absoluteBounds="0.51500000000000012, 12.585, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.5625 : 7.27073404947917); (1.5625 : 12.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClasses1DataContext/Account/Account_CampaignUnsubscribe" />
+      <nodes>
+        <classShapeMoniker Id="a27cb497-bd8b-4c0b-a6a5-f2b11b61f3a3" />
+        <classShapeMoniker Id="53cf9b51-8916-4d5b-9f92-7252a2eb47e4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.125 : 9.50560628255208); (4.61535456410256 : 9.50560628255208 : JumpStart); (4.4486878974359 : 9.50560628255208 : JumpEnd); (3.55208333333333 : 9.50560628255208 : JumpStart); (3.38541666666667 : 9.50560628255208 : JumpEnd); (3.30208333333333 : 9.50560628255208 : JumpStart); (3.13541666666667 : 9.50560628255208 : JumpEnd); (2.95833333333333 : 9.50560628255208 : JumpStart); (2.79166666666667 : 9.50560628255208 : JumpEnd); (2.69270833333333 : 9.50560628255208 : JumpStart); (2.51041666666667 : 9.50560628255208 : JumpEnd); (1.64583333333333 : 9.50560628255208 : JumpStart); (1.47916666666667 : 9.50560628255208 : JumpEnd); (0.53125 : 9.50560628255208); (0.53125 : 12.125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Contact/Contact_CampaignUnsubscribe" />
+      <nodes>
+        <classShapeMoniker Id="ef3cf6ca-b5b8-4914-8fd8-f079cfab000e" />
+        <classShapeMoniker Id="53cf9b51-8916-4d5b-9f92-7252a2eb47e4" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.125 : 10.065305641276); (4.61535456410256 : 10.065305641276 : JumpStart); (4.4486878974359 : 10.065305641276 : JumpEnd); (3.55208333333333 : 10.065305641276 : JumpStart); (3.38541666666667 : 10.065305641276 : JumpEnd); (3.30208333333333 : 10.065305641276 : JumpStart); (3.13541666666667 : 10.065305641276 : JumpEnd); (2.95833333333333 : 10.065305641276 : JumpStart); (2.79166666666667 : 10.065305641276 : JumpEnd); (2.69270833333333 : 10.065305641276 : JumpStart); (2.51041666666667 : 10.065305641276 : JumpEnd); (1.64583333333333 : 10.065305641276 : JumpStart); (1.47916666666667 : 10.065305641276 : JumpEnd); (0.546875 : 10.065305641276); (0.546875 : 12.125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Contact/Contact_CampaignUnsubscribe1" />
+      <nodes>
+        <classShapeMoniker Id="ef3cf6ca-b5b8-4914-8fd8-f079cfab000e" />
+        <classShapeMoniker Id="53cf9b51-8916-4d5b-9f92-7252a2eb47e4" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="7cfb0d1c-656b-4174-abec-63db1dd5bed8" absoluteBounds="0.5, 17.625, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/DataClasses1DataContext/EmailCampaignsSent" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0dad5b2a-33b9-430f-9eff-1084bcdbf866" absoluteBounds="0.515, 18.085, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(0.626537461538466 : 7.27073404947917); (0.251537461538462 : 7.64573404947917); (0.125 : 7.64573404947917); (0.125 : 17.25); (1.20923076923077 : 17.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClasses1DataContext/Account/Account_EmailCampaignsSent" />
+      <nodes>
+        <classShapeMoniker Id="a27cb497-bd8b-4c0b-a6a5-f2b11b61f3a3" />
+        <classShapeMoniker Id="7cfb0d1c-656b-4174-abec-63db1dd5bed8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.8906275 : 13.7322412109375); (7.8906275 : 20.7348046875); (2.5 : 20.7348046875)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClasses1DataContext/Contact/Contact_EmailCampaignsSent" />
+      <nodes>
+        <classShapeMoniker Id="ef3cf6ca-b5b8-4914-8fd8-f079cfab000e" />
+        <classShapeMoniker Id="7cfb0d1c-656b-4174-abec-63db1dd5bed8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.62653746153846 : 8.38621256510417); (3.52767556509888 : 8.48507446154375 : JumpStart); (3.40982443490112 : 8.60292559174151 : JumpEnd); (3.25153746153846 : 8.76121256510417); (2.875 : 8.76121256510417); (2.875 : 17.25); (2.5 : 17.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataClasses1DataContext/Message/Message_EmailCampaignsSent" />
+      <nodes>
+        <classShapeMoniker Id="d2088196-d81a-4ef1-891c-560e22d5be2e" />
+        <classShapeMoniker Id="7cfb0d1c-656b-4174-abec-63db1dd5bed8" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="9aa484e5-2f24-4dd2-90f7-7eb86853d0ee" absoluteBounds="3.375, 10.625, 2, 6.0015283203125">
+      <DataClassMoniker Name="/DataClasses1DataContext/Campaign" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0c30658f-0404-4fce-a2d6-826fa630e0ea" absoluteBounds="3.3899999999999997, 11.085, 1.9700000000000002, 5.4415283203125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.46875 : 10.625); (3.46875 : 2.68632940429688); (4.625 : 2.68632940429688)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Campaign/Campaign_CampaignContact" />
+      <nodes>
+        <classShapeMoniker Id="9aa484e5-2f24-4dd2-90f7-7eb86853d0ee" />
+        <classShapeMoniker Id="ba1210f4-4dfb-4196-8797-6bcc934b6aaa" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.375 : 16.6265283203125); (3.27767556509888 : 16.7238527552136 : JumpStart); (3.15982443490112 : 16.8417038854114 : JumpEnd); (2.93392556509888 : 17.0676027552136 : JumpStart); (2.81607443490112 : 17.1854538854114 : JumpEnd); (2.75 : 17.2515283203125); (1.468748 : 17.2515283203125); (1.468748 : 17.625)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Campaign/Campaign_EmailCampaignsSent" />
+      <nodes>
+        <classShapeMoniker Id="9aa484e5-2f24-4dd2-90f7-7eb86853d0ee" />
+        <classShapeMoniker Id="7cfb0d1c-656b-4174-abec-63db1dd5bed8" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.609375 : 7.27073404947917); (2.609375 : 15.4535114973958); (2.79166666666667 : 15.4535114973958 : JumpStart); (2.95833333333333 : 15.4535114973958 : JumpEnd); (3.13541666666667 : 15.4535114973958 : JumpStart); (3.30208333333333 : 15.4535114973958 : JumpEnd); (3.375 : 15.4535114973958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Account/Account_Campaign" />
+      <nodes>
+        <classShapeMoniker Id="a27cb497-bd8b-4c0b-a6a5-f2b11b61f3a3" />
+        <classShapeMoniker Id="9aa484e5-2f24-4dd2-90f7-7eb86853d0ee" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.53202123076923 : 8.38621256510417); (4.53202123076923 : 10.625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Message/Message_Campaign" />
+      <nodes>
+        <classShapeMoniker Id="d2088196-d81a-4ef1-891c-560e22d5be2e" />
+        <classShapeMoniker Id="9aa484e5-2f24-4dd2-90f7-7eb86853d0ee" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

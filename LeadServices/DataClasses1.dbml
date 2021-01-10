@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="MarketingAutomationTool" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost\SQLEXPRESS;Initial Catalog=MarketingAutomationTool;User ID=auto" SettingsObjectName="LeadServices.Properties.Settings" SettingsPropertyName="MarketingAutomationToolConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.[User]" Member="Users">
+    <Type Name="User">
+      <Column Name="UserID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="AccountID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="MobileNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PhoneNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="EmailAddress" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="CountryId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PasswordQuestion" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PasswordAnswer" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="LastLoginDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LastLogoutDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="ModifiedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="IsAdmin" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="PasswordSalt" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="State" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ZipCode" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="HasChangedSystemPassword" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsOwner" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Position" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="IsSuperAdminUser" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="User_ContactJob" Member="ContactJobs" ThisKey="UserID" OtherKey="CreatedBy" Type="ContactJob" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ContactJob_Exception" Member="ContactJob_Exceptions">
+    <Type Name="ContactJob_Exception">
+      <Column Name="JE_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="JOB_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="REC_NO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ERR_CODE" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DESCRIPTION" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DATE_CREATED" AutoSync="Never" Type="System.DateTime" DbType="SmallDateTime NOT NULL" IsDbGenerated="true" CanBeNull="false" />
+      <Association Name="ContactJob_ContactJob_Exception" Member="ContactJob" ThisKey="JOB_ID" OtherKey="JobId" Type="ContactJob" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ContactJob" Member="ContactJobs">
+    <Type Name="ContactJob">
+      <Column Name="JobId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="JobName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="JobStatusId" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="AccountID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedBy" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="FileFormat" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="OriginalFileName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="FileName" Type="System.String" DbType="VarChar(150)" CanBeNull="true" />
+      <Column Name="ContactListId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DateCreated" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="JobStarted" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="JobFinished" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="Error" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="TotalContacts" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UploadedContacts" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CurrentRowParsedInExcel" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IPAddress" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Association Name="ContactJob_ContactJob_Exception" Member="ContactJob_Exceptions" ThisKey="JobId" OtherKey="JOB_ID" Type="ContactJob_Exception" />
+      <Association Name="User_ContactJob" Member="User" ThisKey="CreatedBy" OtherKey="UserID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.isUniqueEmail" Method="isUniqueEmail" IsComposable="true">
+    <Parameter Name="Account_Id" Parameter="account_Id" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="strEmail" Type="System.String" DbType="VarChar(60)" />
+    <Return Type="System.String" />
+  </Function>
+  <Function Name="dbo.S_CON_GET_TEMP_CONTACT" Method="S_CON_GET_TEMP_CONTACT">
+    <Parameter Name="job_id" Type="System.Int32" DbType="Int" />
+    <ElementType Name="S_CON_GET_TEMP_CONTACTResult">
+      <Column Name="ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.fn_Country_GetCountryId" Method="fn_Country_GetCountryId" IsComposable="true">
+    <Parameter Name="CountryName" Parameter="countryName" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.S_CON_ADD_RECORDS_PARSER_XLS_MIN" Method="S_CON_ADD_RECORDS_PARSER_XLS_MIN">
+    <Parameter Name="job_id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.S_CON_CONTACT_PARSED_RECORD_TO_TMP_XLS" Method="SaveRecordToTempXLS">
+    <Parameter Name="JOB_ID" Parameter="jOB_ID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ACCOUNT_ID" Parameter="aCCOUNT_ID" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="FIRST_NAME" Parameter="fIRST_NAME" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="LAST_NAME" Parameter="lAST_NAME" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="EMAIL" Parameter="eMAIL" Type="System.String" DbType="NVarChar(250)" />
+    <Parameter Name="MOBILE" Parameter="mOBILE" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="TITLE" Parameter="tITLE" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="SUBSCRIBEDTOEMAIL" Parameter="sUBSCRIBEDTOEMAIL" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="CONTACTTYPE" Parameter="cONTACTTYPE" Type="System.Int32" DbType="Int" />
+    <Parameter Name="CONTACTSTATUS" Parameter="cONTACTSTATUS" Type="System.Int32" DbType="Int" />
+    <Parameter Name="LEADSTATUS" Parameter="lEADSTATUS" Type="System.Int32" DbType="Int" />
+    <Parameter Name="GENDER" Parameter="gENDER" Type="System.Char" DbType="Char(1)" />
+    <Parameter Name="COMPANY_NAME" Parameter="cOMPANY_NAME" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="WEBSITE" Parameter="wEBSITE" Type="System.String" DbType="NVarChar(250)" />
+    <Parameter Name="POSITION_TITLE" Parameter="pOSITION_TITLE" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="PHONE_NO" Parameter="pHONE_NO" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="ADDRESS1" Parameter="aDDRESS1" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="ADDRESS2" Parameter="aDDRESS2" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="CITY" Parameter="cITY" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="STATE" Parameter="sTATE" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="COUNTRYID" Parameter="cOUNTRYID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="POSTALCODE" Parameter="pOSTALCODE" Type="System.String" DbType="NVarChar(20)" />
+    <Parameter Name="SUBSCRIBEDTOEMAILVIA" Parameter="sUBSCRIBEDTOEMAILVIA" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="CREATEDBY" Parameter="cREATEDBY" Type="System.Guid" DbType="UniqueIdentifier" />
+    <Parameter Name="SUBSCRIBEDTOIPADDRESS" Parameter="sUBSCRIBEDTOIPADDRESS" Type="System.String" DbType="VarChar(15)" />
+    <Parameter Name="FORMID" Parameter="fORMID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="CONTACTLISTID" Parameter="cONTACTLISTID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="FILTERID" Parameter="fILTERID" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

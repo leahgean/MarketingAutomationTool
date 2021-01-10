@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="MarketingAutomationTool" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost\SQLEXPRESS;Initial Catalog=MarketingAutomationTool;User ID=auto" SettingsObjectName="EmailCampaignService.Properties.Settings" SettingsPropertyName="MarketingAutomationToolConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Email_Job_Queue_History" Member="Email_Job_Queue_Histories">
+    <Type Name="Email_Job_Queue_History">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="JobId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STATUS" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="Email_Job_Status_Email_Job_Queue_History" Member="Email_Job_Status" ThisKey="STATUS" OtherKey="Status_Id" Type="Email_Job_Status" IsForeignKey="true" />
+      <Association Name="Email_Job_Queue_Email_Job_Queue_History" Member="Email_Job_Queue" ThisKey="JobId" OtherKey="Id" Type="Email_Job_Queue" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Email_Job_Status" Member="Email_Job_Status">
+    <Type Name="Email_Job_Status">
+      <Column Name="Status_Id" Type="System.Byte" DbType="TinyInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Status" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Email_Job_Status_Email_Job_Queue_History" Member="Email_Job_Queue_Histories" ThisKey="Status_Id" OtherKey="STATUS" Type="Email_Job_Queue_History" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Message" Member="Messages">
+    <Type Name="Message">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MessageUID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="AccountId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="MessageFormat" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Entity" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="Subject" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="SenderName" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="SenderEmail" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="MessageBody" Type="System.String" DbType="NText NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedBy" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="DeletedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Association Name="Message_EmailCampaignsSent" Member="EmailCampaignsSents" ThisKey="Id" OtherKey="MessageId" Type="EmailCampaignsSent" />
+      <Association Name="Message_Email_Job_Queue" Member="Email_Job_Queues" ThisKey="Id" OtherKey="MessageId" Type="Email_Job_Queue" />
+      <Association Name="Message_Campaign" Member="Campaigns" ThisKey="Id" OtherKey="MessageId" Type="Campaign" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CampaignContact" Member="CampaignContacts">
+    <Type Name="CampaignContact">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AccountId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="CampaignID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ContactID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="CampaignScore" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedBy" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="ModifiedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Contact_CampaignContact" Member="Contact" ThisKey="ContactID" OtherKey="ContactID" Type="Contact" IsForeignKey="true" />
+      <Association Name="Campaign_CampaignContact" Member="Campaign" ThisKey="CampaignID" OtherKey="Id" Type="Campaign" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Contact" Member="Contacts">
+    <Type Name="Contact">
+      <Column Name="ContactID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="AccountID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="MobileNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PhoneNumber" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="EmailAddress" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Address1" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Address2" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="CountryId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ZipCode" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="CompanyName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="ModifiedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="WebSite" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Position" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FacebookID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LeadStatus" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ContactStatus" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ContactType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Gender" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="State" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SubscribedToEmail" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="UseforTesting" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ImportDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ImportSource" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ImportBy" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="UnsubscribedToEmailDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Contact_CampaignContact" Member="CampaignContacts" ThisKey="ContactID" OtherKey="ContactID" Type="CampaignContact" />
+      <Association Name="Contact_EmailCampaignsSent" Member="EmailCampaignsSents" ThisKey="ContactID" OtherKey="ContactID" Type="EmailCampaignsSent" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Country" Member="Countries">
+    <Type Name="Country">
+      <Column Name="CountryID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CountryName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CountryCode" Type="System.String" DbType="Char(2)" CanBeNull="true" />
+      <Column Name="PhoneCode" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EmailCampaignsSent" Member="EmailCampaignsSents">
+    <Type Name="EmailCampaignsSent">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="AccountUID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="CampaignId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MessageId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ContactID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="EmailAddress" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="EmailSent" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ErrorMessage" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedBy" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="IPAddress" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Association Name="Contact_EmailCampaignsSent" Member="Contact" ThisKey="ContactID" OtherKey="ContactID" Type="Contact" IsForeignKey="true" />
+      <Association Name="Message_EmailCampaignsSent" Member="Message" ThisKey="MessageId" OtherKey="Id" Type="Message" IsForeignKey="true" />
+      <Association Name="Campaign_EmailCampaignsSent" Member="Campaign" ThisKey="CampaignId" OtherKey="Id" Type="Campaign" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Email_Job_Queue" Member="Email_Job_Queues">
+    <Type Name="Email_Job_Queue">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MessageId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CampaignId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedBy" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="IPAddress" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Schedule" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="bUpdate" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="datesent" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="datecompleted" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="Email_Job_Queue_Email_Job_Queue_History" Member="Email_Job_Queue_Histories" ThisKey="Id" OtherKey="JobId" Type="Email_Job_Queue_History" />
+      <Association Name="Message_Email_Job_Queue" Member="Message" ThisKey="MessageId" OtherKey="Id" Type="Message" IsForeignKey="true" />
+      <Association Name="Campaign_Email_Job_Queue" Member="Campaign" ThisKey="CampaignId" OtherKey="Id" Type="Campaign" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Campaign" Member="Campaigns">
+    <Type Name="Campaign">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CampaignUID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="AccountId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="CampaignName" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="CampaignType" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CampaignFormat" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CampaignDescription" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="MessageId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UseBounceAddressInFromField" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="HideInSearch" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CampaignStatus" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TemplateId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedBy" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ModifiedBy" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="Deleted" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="DeletedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DeletedBy" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="SendingOption" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SendingSchedule" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SearchID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ExcludeList" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="EnableScoring" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IPAddress" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="SubmittedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SubmittedBy" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Association Name="Campaign_CampaignContact" Member="CampaignContacts" ThisKey="Id" OtherKey="CampaignID" Type="CampaignContact" />
+      <Association Name="Campaign_EmailCampaignsSent" Member="EmailCampaignsSents" ThisKey="Id" OtherKey="CampaignId" Type="EmailCampaignsSent" />
+      <Association Name="Campaign_Email_Job_Queue" Member="Email_Job_Queues" ThisKey="Id" OtherKey="CampaignId" Type="Email_Job_Queue" />
+      <Association Name="Message_Campaign" Member="Message" ThisKey="MessageId" OtherKey="Id" Type="Message" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
