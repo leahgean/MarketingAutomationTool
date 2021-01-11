@@ -1,2 +1,0 @@
-E:\MarketingAutomationTool\MarketingAutomationTool\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
-E:\MarketingAutomationTool\MarketingAutomationTool\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache

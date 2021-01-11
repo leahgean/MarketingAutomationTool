@@ -1,2 +1,0 @@
-E:\MarketingAutomationTool\MarketingAutomationTool\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
-E:\MarketingAutomationTool\MarketingAutomationTool\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
