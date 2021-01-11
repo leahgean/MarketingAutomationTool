@@ -1,0 +1,5 @@
+ALTER TABLE Campaign
+ADD SearchID INT NULL REFERENCES ContactSearch(ID)
+
+ALTER TABLE Campaign
+ADD ExcludeList NVARCHAR(MAX)

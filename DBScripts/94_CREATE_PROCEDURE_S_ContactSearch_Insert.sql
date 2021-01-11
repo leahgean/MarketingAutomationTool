@@ -1,0 +1,16 @@
+CREATE PROCEDURE S_ContactSearch_Insert
+@AccountId UNIQUEIDENTIFIER,
+@CreatedBy UNIQUEIDENTIFIER,
+@Id INT OUTPUT,
+@SearchUID UNIQUEIDENTIFIER OUTPUT
+AS
+BEGIN
+
+INSERT INTO ContactSearch(AccountID, CreatedBy)
+VALUES(@AccountId,@CreatedBy)
+
+SELECT @Id= SCOPE_IDENTITY()
+
+SELECT @SearchUID=SearchUID FROM ContactSearch WHERE Id=@Id
+
+END

@@ -1,0 +1,3 @@
+INSERT INTO MarketingAutomationTool.dbo.CONTACTACTION(ACTION_ID,[NAME])
+	SELECT  * 
+	FROM AllMessages.dbo.CON_ACTION

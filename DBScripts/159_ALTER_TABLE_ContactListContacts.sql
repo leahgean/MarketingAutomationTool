@@ -1,0 +1,4 @@
+ALTER TABLE ContactListContacts
+ADD AccountId UNIQUEIDENTIFIER NOT NULL
+
+

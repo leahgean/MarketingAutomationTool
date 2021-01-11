@@ -1,0 +1,26 @@
+USE [MarketingAutomationTool]
+GO
+
+/****** Object:  Table [dbo].[CON_CONTACT_SUBSCRIPTION_HISTORY]    Script Date: 2/29/2020 3:37:59 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Contact_Subscription_History](
+	[ID] [bigint] IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	[CONTACT_ID] UNIQUEIDENTIFIER NOT NULL REFERENCES Contact(ContactID),
+	[EMAIL_ADDRESS] NVARCHAR(250) NOT NULL,
+	[ACTION_ID] [smallint] NOT NULL REFERENCES ContactAction(ACTION_ID),
+	[ACTION_TIME] [smalldatetime] NOT NULL DEFAULT (GETDATE()),
+	[ACTION_BY] [nvarchar](100) NULL,
+	[ACTION_VIA] [varchar](50) NOT NULL,
+	[IP_ADDRESS] VARCHAR(15) NULL,
+	[MESSAGE_ID] [int] NULL,
+	[COUNTRY_CODE] [char](3) NULL,
+	[CITY_NAME] [nvarchar](128) NULL,
+	[REGION_NAME] [nvarchar](128) NULL
+)
+
+

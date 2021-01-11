@@ -1,0 +1,10 @@
+CREATE PROCEDURE S_LeadReports_GetSource
+@AccountID UNIQUEIDENTIFIER
+AS
+BEGIN
+SELECT DISTINCT  ISNULL(ImportSource, 'PC') ImportSource
+FROM Contact WITH (NOLOCK)
+WHERE AccountId=@AccountID
+ORDER BY ImportSource
+
+END

@@ -1,0 +1,7 @@
+CREATE  TABLE [dbo].[CampaignContact](
+	Id INT IDENTITY(1,1) PRIMARY KEY,
+	AccountId UNIQUEIDENTIFIER REFERENCES Account(AccountID) NOT NULL,
+	CampaignID INT  REFERENCES Campaign(Id) NOT NULL,
+	ContactID UNIQUEIDENTIFIER REFERENCES Contact(ContactID) NOT NULL,
+	CampaignScore INT NULL
+)

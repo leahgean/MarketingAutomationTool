@@ -1,0 +1,57 @@
+USE MarketingAutomationTool
+GO
+
+/****** Object:  Table [dbo].[COM_MESSAGE]    Script Date: 3/2/2020 11:37:54 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[COM_MESSAGE](
+	[MESSAGE_ID] [int] IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	[NAME] [nvarchar](100) NOT NULL,
+	[DESCRIPTION] [nvarchar](500) NOT NULL,
+	[SUBJECT] NVARCHAR(300) NULL,
+	[FROM_ADDRESS] NVARCHAR(256) NOT NULL,
+	[FROM_NAME]NVARCHAR(100)  NOT NULL,
+	[CC] NVARCHAR(256)  NULL,
+	[BCC] NVARCHAR(256)  NULL,
+	[CHANNEL_ID] [int] NOT NULL REFERENCES COM_CHANNEL (CHANNEL_ID),
+	[FORMAT_ID] [int] NOT NULL REFERENCES COM_FORMAT (FORMAT_ID),
+	[BODY] [ntext] NOT NULL,
+	[TEMPLATE_ID] [int] NULL,
+	[STATUS_ID] [tinyint] NOT NULL DEFAULT ((0)) REFERENCES COM_MESSAGE_STATUS (STATUS_ID),
+	[SUBMITTED] [smalldatetime] NULL,
+	[HTML_TEMPLATE_ID] [bigint] NULL REFERENCES HTML_TEMPLATE (HTML_TEMPLATE_ID),
+	[RECIPIENT_FILTER_ID] [bigint] NULL,
+	[UserId] [uniqueidentifier] NOT NULL REFERENCES [User](UserID),
+	[CREATED] [smalldatetime] NOT NULL DEFAULT (getdate()),
+	[UPDATE_USER_ID] [uniqueidentifier] NULL,
+	[DELETE_USER_ID] [uniqueidentifier] NULL,
+	[DATE_CREATED] [smalldatetime] NOT NULL DEFAULT (getdate()),
+	[DATE_UPDATED] [smalldatetime] NULL,
+	[DATE_DELETED] [smalldatetime] NULL,
+	[VERSION] [timestamp] NULL,
+	[ENTITY] [char](16) NULL,
+	[ENTITY_ID] [varchar](32) NULL,
+	[MSGTYPE] [int] NULL,
+	[isLink] [bit] NULL,
+	[FB_URL] [varchar](256) NULL,
+	[REPLACE_EMAIL] [bit] NULL,
+	[FB_PhotoUrl] [nvarchar](256) NULL,
+	[FB_SourceUrl] [nvarchar](256) NULL,
+	[isSenderID] [bit] NULL,
+	[TO_ADDRESS] NVARCHAR(256) NULL,
+	[TO_NAME] NVARCHAR(100) NULL
+)
+
+
+
+
+
+
+
+
+
+

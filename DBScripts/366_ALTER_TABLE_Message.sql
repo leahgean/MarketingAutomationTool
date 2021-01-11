@@ -1,0 +1,2 @@
+ALTER TABLE [Message]
+ALTER COLUMN MessageBody NTEXT NULL

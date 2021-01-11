@@ -1,0 +1,2 @@
+ALTER TABLE ContactList
+ALTER COLUMN IsDeleted BIT NOT NULL

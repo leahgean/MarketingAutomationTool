@@ -1,0 +1,10 @@
+CREATE PROCEDURE S_USER_USEREXISTS
+@EmailAddress NVARCHAR(250)
+AS
+BEGIN
+
+SELECT * 
+FROM [User]
+WHERE EmailAddress = @EmailAddress
+
+END

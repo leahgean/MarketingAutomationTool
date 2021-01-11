@@ -1,0 +1,16 @@
+CREATE PROCEDURE S_ContactSearchField_Delete
+@SearchID INT,
+@AccountId UNIQUEIDENTIFIER
+AS
+BEGIN
+
+DECLARE @Count AS INT = 0
+
+SELECT @Count = COUNT(*) FROM ContactSearchFields WHERE SEARCHID=@SearchID AND ACCOUNTID=@AccountId
+
+IF (@Count >0)
+BEGIN
+	DELETE ContactSearchFields WHERE SEARCHID=@SearchID AND ACCOUNTID=@AccountId
+END
+
+END

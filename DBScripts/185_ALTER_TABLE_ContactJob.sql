@@ -1,0 +1,2 @@
+ALTER TABLE ContactJob
+ADD IPAddress VARCHAR(15)

@@ -1,0 +1,5 @@
+ALTER TABLE ContactList
+ADD DateDeleted DATETIME NULL
+
+ALTER TABLE ContactList
+ADD IsDeleted BIT DEFAULT(0)

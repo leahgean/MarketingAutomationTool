@@ -1,0 +1,75 @@
+-- =============================================
+-- Author:		Leah Gean Diopenes
+-- Create date: 02-November-2020
+-- Description:	Gets number of new leads
+-- =============================================
+CREATE PROCEDURE [dbo].[S_LeadReports_NewLeadsStatistics]
+	@FROM DATETIME = NULL,
+	@TO DATETIME = NULL,
+	@SOURCE VARCHAR(50)= NULL,
+	@TYPE_ID TINYINT = NULL,
+	@STATUS_ID TINYINT = NULL,
+	@ACCOUNT_ID INT
+AS
+BEGIN
+
+	DECLARE @T_TIME TABLE ([DATE] DATETIME NULL)
+	DECLARE @T_NEWCONTACTS TABLE ([DATE] DATETIME NULL, [COUNT] INT NULL)
+	
+	DECLARE @CRITERIA AS NVARCHAR(MAX)
+	SET @CRITERIA = ''
+	
+	DECLARE @RUNDATE AS DATETIME
+	
+	IF @ACCOUNT_ID IS NULL
+		RETURN -60187
+	
+	/*Populate All Dates table*/	
+	SET @RUNDATE = CAST(@FROM AS DATE)
+	
+	WHILE (@RUNDATE <= CAST(@TO AS DATE))
+	BEGIN
+		INSERT @T_TIME
+		SELECT @RUNDATE
+		
+		SET @RUNDATE = DATEADD(D, 1, @RUNDATE)
+	END
+	
+	/*Create Criteria*/
+	SET @CRITERIA = 'c.IsDeleted = 0 AND c.AccountID = ' + '''' + CAST(@ACCOUNT_ID as varchar) + ''''+ ' AND '
+	
+	IF @FROM IS NOT NULL
+		SET @CRITERIA = @CRITERIA + 'cs.DATE_CREATED >= ' + '''' + CAST(@FROM AS DATE) + ''' AND '
+
+	IF @TO IS NOT NULL
+		SET @CRITERIA = @CRITERIA + 'cs.DATE_CREATED < ' + '''' + DATEADD(d, 1, @TO) + ''' AND '
+
+	IF @SOURCE IS NOT NULL
+		SET @CRITERIA = @CRITERIA + 'UPPER(cs.SUBSCRIBED_VIA) = ' + '''' + UPPER(@SOURCE) + ''' AND '
+
+	IF @TYPE_ID IS NOT NULL
+		SET @CRITERIA = @CRITERIA + 'cc.CON_TYPE_ID = ' + '''' + CAST(@TYPE_ID AS NVARCHAR(10)) + ''' AND '
+
+	IF @STATUS_ID IS NOT NULL
+		SET @CRITERIA = @CRITERIA + 'cc.CON_STATUS_ID = ' + '''' + CAST(@STATUS_ID AS NVARCHAR(10)) + ''' AND '
+		
+	SET @CRITERIA = LEFT(@CRITERIA, LEN(@CRITERIA) - 4)	   
+	
+	/*Query New Contacts Count*/
+	INSERT INTO  @T_NEWCONTACTS  	   
+	EXEC('SELECT CAST(ccs.DATE_CREATED as DATE) DATE, COUNT(*) NEW_CONTACTS
+	       FROM CON_CONTACT_SUBSCRIPTION ccs INNER JOIN CON_CONTACT cc ON ccs.CONTACT_ID = cc.CONTACT_ID WHERE ' 
+	       + @CRITERIA +
+		   ' GROUP BY CAST(ccs.DATE_CREATED as DATE)
+		   ORDER BY CAST(ccs.DATE_CREATED as DATE) DESC')
+	
+	/*Query All Data*/	   
+	SELECT T1.[DATE], ISNULL([COUNT],0) AS COUNT
+	FROM @T_TIME T1 
+	LEFT JOIN @T_NEWCONTACTS T2
+	ON T1.[DATE] = T2.[DATE]
+	ORDER BY T1.[DATE] DESC
+END
+
+
+select * from contact_subscription

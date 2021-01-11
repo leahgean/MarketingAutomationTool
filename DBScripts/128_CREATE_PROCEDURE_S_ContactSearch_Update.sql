@@ -1,0 +1,14 @@
+
+CREATE PROCEDURE [dbo].[S_ContactSearch_Update]
+@AccountId UNIQUEIDENTIFIER,
+@ModifiedBy UNIQUEIDENTIFIER,
+@Id INT
+AS
+BEGIN
+
+	UPDATE ContactSearch
+	SET MODIFIEDBY=@ModifiedBy,
+		MODIFIEDDATE=GETDATE()
+	WHERE Id=@Id AND AccountId=@AccountId
+
+END

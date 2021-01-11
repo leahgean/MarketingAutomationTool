@@ -1,0 +1,2 @@
+INSERT INTO ContactAction(ACTION_ID,[NAME])
+VALUES(4,'Delete')
